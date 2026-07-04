@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Módulo — Entregador · Guia Pantanal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Grenze+Gotisch:wght@500;700;900&family=Roboto:wght@300;400;500;700;900&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="modulo.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../apresentacao.html">PANTA<span>NAL</span></a>
+  <a href="README.md">← todos os módulos</a>
+</div>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="kicker">Módulo · sistema pago · camada de gameplay</div>
+  <h1>📦 Entregador</h1>
+  <p class="lead">Uma <b>profissão de estrada com carreira</b> — XP, licença oficial, frota própria e a regra de ouro do frete: <b>palavra vale dinheiro</b>. O módulo de renda mais acessível, mas com profundidade de progressão.</p>
+  <div class="chips">
+    <span class="chip red">$0,50 / item</span>
+    <span class="chip">Carreira em 5 níveis</span>
+    <span class="chip">Licença de Tradesman</span>
+    <span class="chip">Até 14 caixas</span>
+  </div>
+</header>
+
+<h2><span class="n">1.</span>Por que este módulo importa</h2>
+<p>É onde qualquer um começa a ganhar dinheiro <b>sem investir nada</b>: pegue caixas nas lojas e entregue de carroça. Mas por baixo da simplicidade tem uma carreira real — níveis, licença oficial e carroças cada vez maiores. Quanto mais alto o nível, mais caixas por viagem, mais dólares pela mesma estrada.</p>
+
+<h2><span class="n">2.</span>A dinâmica — frete a frete</h2>
+<ul class="steps">
+  <li><b>Pegue o contrato</b> na loja: cada caixa junta até <b>30 itens</b>, pagando <b>$0,50 por item</b> (caixa cheia ≈ $15).</li>
+  <li><b>Carregue no braço:</b> as caixas são <b>props físicos</b> — pegue uma a uma e ponha na carroça (nada de mágica; nem corra com caixa na mão).</li>
+  <li><b>Viaje</b> até o destino marcado.</li>
+  <li><b>Descarregue</b> também na mão, caixa por caixa. Frete concluído = dinheiro + <b>30 XP</b>.</li>
+</ul>
+<div class="call warn">
+  <span class="t">Falhou na entrega? Dói de verdade</span>
+  <b>−50 XP</b> e você paga <b>metade do frete do próprio bolso</b> (anti-abuso — a mercadoria saiu da loja).
+</div>
+
+<h2><span class="n">3.</span>A carreira</h2>
+<table>
+  <tr><th>Nível</th><th>Título</th><th>Destrava</th></tr>
+  <tr><td>1–2</td><td>Beginner / Novice</td><td>carroças alugadas do NPC</td></tr>
+  <tr><td><b>3</b></td><td>Apprentice</td><td><b>Licença de Tradesman</b> → carroça <b>própria</b> (6–10 caixas)</td></tr>
+  <tr><td>4</td><td>Journey Man</td><td>supplywagon (12 caixas)</td></tr>
+  <tr><td>5</td><td>Trades Man</td><td>chuckwagon / gatchuck (<b>14 caixas</b>)</td></tr>
+</table>
+
+<h2><span class="n">4.</span>A licença é um item de verdade</h2>
+<div class="card">
+  <p>A <b>Licença de Tradesman</b> tem o <b>nome do dono</b> gravado (metadata) — a lei pode pedir seus documentos na estrada. Emprestar não cola na config atual (<b>só o dono usa</b>). E dá pra <b>perder</b> — cuide dela como do cavalo.</p>
+</div>
+
+<h2><span class="n">5.</span>Como jogar bem</h2>
+<ul class="steps">
+  <li><b>Alugue</b> carroça do NPC até o nível 3 — não trave sua grana em carroça antes da licença.</li>
+  <li><b>Rota cheia &gt; rota rápida:</b> espere a caixa fechar com 30 itens.</li>
+  <li>A carga é visível na carroça — <b>frete valioso atrai olhares</b>. Leve companhia em rota erma.</li>
+</ul>
+<div class="call">
+  <span class="t">Elo com outro módulo</span>
+  Sinergia direta com o <a href="estabulo.html">Estábulo</a>: <b>carroça própria maior é literalmente seu teto de renda</b>.
+</div>
+
+<p class="tec"><b>Ficha técnica:</b> script <code>outsider_deliveryman</code> · XP "Entregas" no core · props aleatórios por categoria (comida, bebida, ferramentas, armas).</p>
+
+<div class="next">
+  <a class="red" href="../apresentacao.html">← Voltar à apresentação</a>
+  <a href="README.md">Todos os módulos</a>
+  <a href="estabulo.html">Sua frota: Estábulo →</a>
+</div>
+
+</div>
+</body>
+</html>

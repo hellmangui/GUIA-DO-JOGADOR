@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Módulo — Destilaria & Bar · Guia Pantanal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Grenze+Gotisch:wght@500;700;900&family=Roboto:wght@300;400;500;700;900&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="modulo.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../apresentacao.html">PANTA<span>NAL</span></a>
+  <a href="README.md">← todos os módulos</a>
+</div>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="kicker">Módulo · sistema pago · camada de gameplay</div>
+  <h1>🍺 Destilaria &amp; Bar</h1>
+  <p class="lead">O <b>submundo</b>. Um negócio ilegal completo — produção de moonshine, bar clandestino, compradores do crime e a lei na sua cola. O módulo de <b>maior risco e maior personalidade</b>.</p>
+  <div class="chips">
+    <span class="chip red">Negócio ilegal</span>
+    <span class="chip">2 alambiques · 10 níveis</span>
+    <span class="chip">Bar clandestino</span>
+    <span class="chip">Xerife na cola</span>
+  </div>
+</header>
+
+<h2><span class="n">1.</span>Por que este módulo importa</h2>
+<p>Você monta um bar escondido, instala alambiques, produz bebida e vende para o submundo — tudo dentro do RP de ilegalidade, com fumaça, denúncia e xerife. É também o <b>módulo VIP 4.15</b> do <a href="../04-oficinas.md">Cap.4</a>: as duas destilarias são oficinas de craft com XP próprio; aqui a gente vê o <b>negócio inteiro</b> em volta delas.</p>
+
+<h2><span class="n">2.</span>O ciclo do contrabando</h2>
+<ul class="steps">
+  <li><b>Monte o bar:</b> use um item de interior (<i>moonshine_interior1–7</i>) para criar a entrada. <b>1 bar por jogador.</b></li>
+  <li><b>Instale alambiques</b> (máx. <b>2 por jogador</b>). Cada um tem <b>10 níveis de XP</b> e <b>durabilidade própria</b>.</li>
+  <li><b>Consiga ingredientes:</b> zonas de coleta (amora, amora-preta, uva) + insumos de fazenda (água filtrada, fermento, frascos, grãos secos) — a Plantação e o Fermentador alimentam o crime.</li>
+  <li><b>Produza</b> (multiplicador até <b>×5</b>; mais volume = mais tempo e mais desgaste — <b>repare!</b>).</li>
+  <li><b>Venda:</b> no menu do negócio, escolha um <b>comprador NPC</b> (cada um exige <b>reputação</b> mínima), aceite a missão, chame a carroça com <code>/bar</code> e entregue no prazo. O dinheiro cai no <b>cofre do negócio</b>.</li>
+</ul>
+
+<h2><span class="n">3.</span>As duas destilarias (+ o bar)</h2>
+<table>
+  <tr><th>Oficina</th><th>O que produz</th></tr>
+  <tr><td>🥃 <b>Destilaria Artesanal</b> <i>(still01)</i></td><td>do básico ao <b>Moonshine de Sangue</b>; cada nível melhora a qualidade</td></tr>
+  <tr><td>⚗️ <b>Destilaria Química</b> <i>(still02)</i></td><td>destilados premium, <b>explosivos e munições especiais</b></td></tr>
+  <tr><td>🍺 <b>Livro do Bar</b> (Destilaria Avançada)</td><td>produção <b>em lote (×11)</b>: aguardente, cachaça, bourbon, cerveja, vodka, whisky...</td></tr>
+</table>
+
+<h2><span class="n">4.</span>⚠️ Os riscos — é ilegal MESMO</h2>
+<div class="call warn">
+  <span class="t">A lei e o crime na sua cola</span>
+  <ul style="margin:6px 0 0;padding-left:18px">
+    <li>A <b>fumaça da produção é visível</b> para outros jogadores.</li>
+    <li>Após cada entrega: <b>30% de chance de denúncia</b> aos xerifes.</li>
+    <li><b>Bandidos podem roubar sua carroça</b> de entrega; missão falha desconta do cofre.</li>
+    <li>Jogadores podem plantar <b>dinamite</b> no seu alambique (30 s para desarmar com lockpick).</li>
+    <li>Xerifes com autorização podem <b>queimar o bar</b>.</li>
+  </ul>
+</div>
+
+<h2><span class="n">5.</span>O negócio é gerenciável</h2>
+<div class="grid2">
+  <div class="card">
+    <h3>💰 Cofre & equipe</h3>
+    <p>Cofre com saldo do negócio, <b>equipe autorizada</b> (adicione membros por ID), baú do bar e <b>preço de entrada</b> (<code>/barcobrar</code>).</p>
+  </div>
+  <div class="card">
+    <h3>⭐ Reputação</h3>
+    <p>Sobe a cada entrega → destrava <b>compradores melhores</b> → <b>preços melhores</b>. É a sua escada no submundo.</p>
+  </div>
+</div>
+
+<h2><span class="n">6.</span>Comandos</h2>
+<table>
+  <tr><th>Comando</th><th>Faz</th></tr>
+  <tr><td><code>/bar</code></td><td>chama a carroça de entrega (com missão aceita)</td></tr>
+  <tr><td><code>/barcobrar &lt;valor&gt;</code></td><td>define o preço de entrada do bar (dono)</td></tr>
+  <tr><td><code>/barload</code></td><td>recarrega interiores após restart</td></tr>
+</table>
+
+<h2><span class="n">7.</span>Erros que custam caro</h2>
+<ul class="steps">
+  <li>Produzir <b>além da durabilidade</b> — alambique zerado no meio do lote é prejuízo.</li>
+  <li>Aceitar entrega <b>grande com reputação baixa</b> — suba com entregas pequenas primeiro.</li>
+  <li>Bar <b>perto demais da cidade</b> (a lei chega) ou <b>longe demais</b> (logística cara) — localização é estratégia.</li>
+</ul>
+
+<p class="tec"><b>Ficha técnica:</b> script <code>fx-moonshinev2</code> · também documentado como oficina VIP <b>4.15</b> no <a href="../04-oficinas.md">Cap.4</a>.</p>
+
+<div class="next">
+  <a class="red" href="../apresentacao.html">← Voltar à apresentação</a>
+  <a href="README.md">Todos os módulos</a>
+  <a href="dominium.html">Poder de rua: Dominium →</a>
+</div>
+
+</div>
+</body>
+</html>

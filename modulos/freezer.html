@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Módulo — Freezer · Guia Pantanal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Grenze+Gotisch:wght@500;700;900&family=Roboto:wght@300;400;500;700;900&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="modulo.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../apresentacao.html">PANTA<span>NAL</span></a>
+  <a href="README.md">← todos os módulos</a>
+</div>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="kicker">Módulo · sistema pago · camada de gameplay</div>
+  <h1>🧊 Freezer</h1>
+  <p class="lead">A caça ganha uma <b>indústria</b>. A carcaça inteira entra congelada e sai em <b>cortes nobres</b> — que valem mais no açougue e são exigidos pelos melhores pratos da Cozinha.</p>
+  <div class="chips">
+    <span class="chip red">77 carcaças</span>
+    <span class="chip">Cortes nobres</span>
+    <span class="chip">Renda em 2 pontas</span>
+    <span class="chip">Freezer público</span>
+  </div>
+</header>
+
+<h2><span class="n">1.</span>Por que este módulo importa</h2>
+<p>Sem freezer, caça é "carne crua no açougue" — troco. Com ele, você processa <b>77 tipos de carcaça</b> (do coelho ao <b>touro, bisão, urso e alce</b>) em cortes evoluídos que <b>valem mais</b> e destravam receitas. É o passo que transforma caçada em negócio.</p>
+
+<div class="flow">
+  🏹 CAÇAR <span class="ar">→</span> 🧊 FREEZER <span class="ar">→</span> 🔪 PROCESSAR <span class="ar">→</span> 💰 AÇOUGUE / 🍲 COZINHA
+</div>
+
+<h2><span class="n">2.</span>A cadeia completa</h2>
+<ul class="steps">
+  <li><b>Cace</b> e traga a carcaça <b>inteira</b> (no lombo do cavalo — o elo com o <a href="estabulo.html">Estábulo</a>).</li>
+  <li><b>Deposite no freezer:</b> aproxime a carcaça e adicione. Animais grandes contam — touro, bisão, urso, alce entram.</li>
+  <li><b>Processe:</b> a carcaça vira <b>cortes evoluídos</b> — carne seca, carne de caça curada, filé de veado, filé de caça, carne moída, costelinha de porco, ave exótica preparada...</li>
+  <li><b>Lucre em duas pontas:</b> venda no <b>açougue</b> — ou leve para a <b>Cozinha/Cozinha Rara</b>, onde os melhores pratos <b>exigem</b> esses cortes.</li>
+</ul>
+<div class="call">
+  <span class="t">A regra de valor</span>
+  O <b>prato</b> vale mais que o <b>corte</b>, que vale mais que a <b>carne crua</b>. Cada etapa que você agrega é dinheiro que ficaria na mesa.
+</div>
+
+<h2><span class="n">3.</span>O freezer é uma máquina (e máquina desgasta)</h2>
+<div class="grid2">
+  <div class="card">
+    <h3>⚙️ Condição</h3>
+    <p>Toda ação consome condição (adicionar carne, processar, fazer linguiça...). Abaixo de <b>50%</b>, o freezer <b>para de trabalhar</b>.</p>
+  </div>
+  <div class="card">
+    <h3>🔧 Reparo</h3>
+    <p>Martelo de reparo + <b>5 parafusos</b> por conserto (+5% de condição). A <b>Ferraria</b> faz os parafusos — mantenha estoque.</p>
+  </div>
+</div>
+<p>Tem <b>gelo</b> para gerenciar, e o <b>dono pode definir preço de uso</b> para outros jogadores — freezer é ponto de renda passiva.</p>
+
+<h2><span class="n">4.</span>Como ganhar dinheiro</h2>
+<ul class="steps">
+  <li><b>Margem por processamento:</b> mesmo animal, mais dólares — o corte vale mais que a carne crua.</li>
+  <li><b>Fornecedor de cozinha:</b> cozinheiros compram corte nobre continuamente (buff de comida move o servidor).</li>
+  <li><b>Freezer público:</b> cobre taxa de uso de caçadores sem módulo.</li>
+</ul>
+
+<h2><span class="n">5.</span>Erros que custam caro</h2>
+<ul class="steps">
+  <li>Deixar a condição <b>bater em 50%</b> no meio de um lote — repare aos 60%.</li>
+  <li>Caçar miúdo: <b>touro/bisão/alce</b> rendem os cortes de maior valor por viagem.</li>
+  <li>Vender avulso quando podia ter <b>parceria fixa</b> com um cozinheiro (pedido recorrente &gt; venda avulsa).</li>
+</ul>
+
+<p class="tec"><b>Ficha técnica:</b> script <code>ricx_freezer</code> · 77 carcaças mapeadas · integra caça (<code>sirevlc_hunting_script</code>), açougue (<code>sirevlc_butcher</code>) e cozinha (<code>fx-craft</code>).</p>
+
+<div class="next">
+  <a class="red" href="../apresentacao.html">← Voltar à apresentação</a>
+  <a href="README.md">Todos os módulos</a>
+  <a href="estabulo.html">De onde vem a carcaça: Estábulo →</a>
+</div>
+
+</div>
+</body>
+</html>

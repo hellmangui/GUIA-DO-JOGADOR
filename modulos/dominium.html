@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Módulo — Dominium · Guia Pantanal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Grenze+Gotisch:wght@500;700;900&family=Roboto:wght@300;400;500;700;900&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="modulo.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../apresentacao.html">PANTA<span>NAL</span></a>
+  <a href="README.md">← todos os módulos</a>
+</div>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="kicker">Módulo · sistema pago · camada de gameplay</div>
+  <h1>⚔️ Dominium</h1>
+  <p class="lead">Política de rua. Sua família/gangue <b>marca território com grafite</b>, ativa <b>buffs territoriais</b>, faz <b>missões de dominação</b> e disputa o mapa com as outras. Onde você domina, o mundo joga a seu favor.</p>
+  <div class="chips">
+    <span class="chip red">Famílias & territórios</span>
+    <span class="chip">Grafite domina área</span>
+    <span class="chip">6 missões/dia</span>
+    <span class="chip">Buffs de território</span>
+  </div>
+</header>
+
+<h2><span class="n">1.</span>Por que este módulo importa</h2>
+<p>O Dominium transforma grupos de amigos em <b>organizações com poder territorial</b>. Onde sua família domina: NPCs aliados, roubo passivo, resistência extra. Onde não domina... cuidado. Território é vantagem em <b>todo conflito</b> — quem domina, cobra.</p>
+
+<h2><span class="n">2.</span>A dinâmica</h2>
+<ul class="steps">
+  <li><b>Entre (ou funde) uma família.</b> O painel abre com <code>/dominio</code> perto do ponto da família (o líder define o local com <code>/setgangmenu</code> — 1 local ativo, com cooldown pra mudar).</li>
+  <li><b>Marque território:</b> use a <b>lata de tinta</b> (<i>paintcan</i>) nos <b>pontos de grafite</b> do mapa. Grafite seu na parede = área dominada. Grafite inimigo? <code>/delgraffiti</code> apaga por cima (RP de guerra de tinta).</li>
+  <li><b>Faça missões:</b> <b>6 missões</b> (diárias e especiais, reset a cada 24 h) — incluindo <b>sabotagem de postes de telégrafo</b> (escalada com minigame). Dão XP e avançam a dominação.</li>
+  <li><b>Evolua e ative buffs</b> com o XP e as <b>Moedas Imperiais</b> da família.</li>
+</ul>
+
+<h2><span class="n">3.</span>Os buffs territoriais</h2>
+<table>
+  <tr><th>Buff</th><th>Nível</th><th>Efeito na área dominada</th></tr>
+  <tr><td>🕵️ Mestre do Roubo</td><td><b>1</b></td><td>seus NPCs <b>furtam jogadores</b> de passagem — o líder saca o caixa no menu</td></tr>
+  <tr><td>🛡️ Reforços NPC</td><td><b>5</b></td><td>NPCs aliados <b>protegem e seguem</b> os membros</td></tr>
+  <tr><td>🗺️ Domínio Territorial</td><td><b>5</b></td><td>revela os pontos de território no mapa da família</td></tr>
+  <tr><td>💪 Resistência da Família</td><td><b>10</b></td><td>membros <b>mais resistentes</b> em território dominado</td></tr>
+</table>
+
+<h2><span class="n">4.</span>O menu da família</h2>
+<div class="card">
+  <p>Missões · <b>Território em tempo real</b> (estatísticas do que está dominado) · <b>Baú da família</b> · gestão de membros · buffs. Só o <b>líder</b> compra buffs, gerencia membros e saca o dinheiro do pickpocket.</p>
+</div>
+
+<h2><span class="n">5.</span>Como ganhar dinheiro</h2>
+<ul class="steps">
+  <li><b>Pickpocket passivo:</b> área movimentada dominada = caixa pingando sozinha.</li>
+  <li><b>Missões de dominação:</b> recompensas diretas + Moedas Imperiais.</li>
+  <li><b>O intangível:</b> território é vantagem em todo conflito — quem domina, cobra pedágio.</li>
+</ul>
+
+<h2><span class="n">6.</span>Dicas & erros</h2>
+<ul class="steps">
+  <li>Domine <b>onde sua família realmente circula</b> — buff em área morta é tinta jogada fora.</li>
+  <li><b>Vigie seus grafites:</b> outra família pode sobrescrever e virar a área.</li>
+  <li>Chegue ao <b>nível 5 rápido</b> (Reforços + mapa) — é quando o módulo liga de verdade.</li>
+</ul>
+<div class="call">
+  <span class="t">Par perfeito</span>
+  Casa com o <a href="estandarte-familia.html">Estandarte da Família</a>: o Dominium dá o <b>poder de rua</b>, o Estandarte dá a <b>base física</b>.
+</div>
+
+<p class="tec"><b>Ficha técnica:</b> scripts <code>dodi_paintwall</code> + <code>dodi_gangmissions</code> (+ props <code>grafite_dodi</code>) · grafites em pontos pré-mapeados (limitação do RedM: props 3D, não textura).</p>
+
+<div class="next">
+  <a class="red" href="../apresentacao.html">← Voltar à apresentação</a>
+  <a href="README.md">Todos os módulos</a>
+  <a href="estandarte-familia.html">A base do clã: Estandarte →</a>
+</div>
+
+</div>
+</body>
+</html>

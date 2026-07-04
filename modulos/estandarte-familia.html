@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Módulo — Estandarte da Família · Guia Pantanal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Grenze+Gotisch:wght@500;700;900&family=Roboto:wght@300;400;500;700;900&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="modulo.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../apresentacao.html">PANTA<span>NAL</span></a>
+  <a href="README.md">← todos os módulos</a>
+</div>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="kicker">Módulo · sistema pago · camada de gameplay</div>
+  <h1>🏕️ Estandarte da Família</h1>
+  <p class="lead">A <b>base física do clã</b> dentro da fazenda — estruturas coletivas, economia de estoque e a decisão mais pesada do servidor: <b>entrar no PvP territorial</b>. Quem tem base, tem o que defender.</p>
+  <div class="chips">
+    <span class="chip red">Base do clã</span>
+    <span class="chip">Estoque → entregas</span>
+    <span class="chip">Imposto $5 mil/mês</span>
+    <span class="chip">⚔️ Sujeito a raid</span>
+  </div>
+</header>
+
+<h2><span class="n">1.</span>Por que este módulo importa</h2>
+<p>Plantar o estandarte transforma sua fazenda na <b>sede oficial da família</b>: acampamento com baús, cozinha coletiva e linha de produção própria. Em troca, suas terras entram na <b>dinâmica de raid</b>. É também a oficina VIP <b>4.16</b> do <a href="../04-oficinas.md">Cap.4</a> (Panelão de Caldos, Tier 3+).</p>
+
+<h2><span class="n">2.</span>A dinâmica</h2>
+<ul class="steps">
+  <li><b>Plante o estandarte</b> na fazenda. Ele é o coração: menu de gestão, membros, livro-caixa e <b>até 100 móveis/estruturas</b> posicionáveis.</li>
+  <li><b>Monte as estruturas:</b> baús da família, <b>Panelão de Caldos</b> (ensopados coletivos com buff pro grupo — Arroz Carreteiro, Ensopado de Colter, de Peixe, de Saint Denis), <b>mesa de açougue/armadilheiro</b>, barril de água, caixa de cerveja, tendas e guarda-roupa.</li>
+  <li><b>Gire a economia do clã:</b> <code>materiais + suprimentos → estoque</code> (converte a cada <b>30 min</b>) → estoque libera <b>missões de entrega</b>.</li>
+  <li><b>Sustente a base:</b> <b>imposto mensal de $5.000</b> (cobrado no dia 15 — mantenha saldo no livro-caixa, teto $50.000) e <b>mínimo de 5 membros</b> — senão a base é <b>recolhida</b>.</li>
+</ul>
+
+<h2><span class="n">3.</span>Estoque → entregas (a renda)</h2>
+<table>
+  <tr><th>Entrega</th><th>Estoque</th><th>Paga</th></tr>
+  <tr><td>Pequena</td><td><b>25</b></td><td>dinheiro + títulos de exportação</td></tr>
+  <tr><td>Média</td><td><b>50</b></td><td>dinheiro + títulos de exportação</td></tr>
+  <tr><td>Grande</td><td><b>100</b></td><td>a maior recompensa em <b>títulos de exportação</b></td></tr>
+</table>
+<p>A entrega grande é a ponte do clã para o endgame do <a href="../06-economia-e-exportacao.md">Cap.6 — Economia & Exportação</a>.</p>
+
+<h2><span class="n">4.</span>⚔️ Raids — o preço do poder</h2>
+<div class="call warn">
+  <span class="t">Só clãs raidam clãs</span>
+  <ul style="margin:6px 0 0;padding-left:18px">
+    <li>O alvo precisa ter <b>5+ membros online</b>.</li>
+    <li>Ritmo justo: raid começa → invasores esperam <b>10 min</b> (defesa chegar) → <b>5 min</b> de lockpick → base aberta para <b>loot por 10 min</b>.</li>
+    <li>Depois de raidada: <b>cooldown de ~3 dias</b> (12 ciclos de restart).</li>
+    <li>O que está no baú da base <b>pode ser levado</b> — proteja o que importa.</li>
+  </ul>
+</div>
+
+<h2><span class="n">5.</span>Comandos</h2>
+<table>
+  <tr><th>Comando</th><th>Faz</th></tr>
+  <tr><td><code>/familiacon</code></td><td>ver convites de família</td></tr>
+  <tr><td><code>/moverfamilia</code></td><td>realoca o acampamento (<b>$800</b>)</td></tr>
+  <tr><td>— (menu)</td><td>mudar cor do blip: <b>$500</b></td></tr>
+</table>
+
+<h2><span class="n">6.</span>Dicas & erros</h2>
+<ul class="steps">
+  <li>Só plante o estandarte quando a família tiver <b>corpo</b> (5+ ativos) — base vazia é imposto + raid de graça.</li>
+  <li>Entrega grande (100) <b>com escolta</b>: a carroça pode ser roubada no caminho.</li>
+  <li>Deixe <b>saldo no livro-caixa</b> antes do dia 15 — imposto não pago recolhe a base.</li>
+</ul>
+<div class="call">
+  <span class="t">Par perfeito</span>
+  Casa com o <a href="dominium.html">Dominium</a>: lá fora o grafite domina a rua; aqui dentro o estandarte segura a base.
+</div>
+
+<p class="tec"><b>Ficha técnica:</b> script <code>syn_clan</code> · também documentado como oficina VIP <b>4.16</b> no <a href="../04-oficinas.md">Cap.4</a>.</p>
+
+<div class="next">
+  <a class="red" href="../apresentacao.html">← Voltar à apresentação</a>
+  <a href="README.md">Todos os módulos</a>
+  <a href="dominium.html">Poder de rua: Dominium →</a>
+</div>
+
+</div>
+</body>
+</html>

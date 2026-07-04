@@ -1,0 +1,2 @@
+# GUIA-DO-JOGADOR
+

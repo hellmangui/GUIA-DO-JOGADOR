@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Módulo — Estábulo · Guia Pantanal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Grenze+Gotisch:wght@500;700;900&family=Roboto:wght@300;400;500;700;900&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="modulo.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="../apresentacao.html">PANTA<span>NAL</span></a>
+  <a href="README.md">← todos os módulos</a>
+</div>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="kicker">Módulo · sistema pago · camada de gameplay</div>
+  <h1>🐴 Estábulo</h1>
+  <p class="lead">Cavalos e carroças deixam de ser "transporte" e viram <b>patrimônio vivo</b> — com idade, genética, equipamento, estilo e mercado. É a base de renda mais acessível do Pantanal: você começa com <b>custo zero</b> domando selvagens e termina vendendo linhagens de elite.</p>
+  <div class="chips">
+    <span class="chip red">175+ cavalos</span>
+    <span class="chip">Doma de selvagens</span>
+    <span class="chip">Cruza em 16h</span>
+    <span class="chip">Renda inicial → elite</span>
+  </div>
+</header>
+
+<h2><span class="n">1.</span>Por que este módulo importa</h2>
+<p>Sem estábulo, você anda no cavalo que aparecer e reza pra ele não morrer. Com ele, você entra num <b>ciclo econômico completo</b>: compra ou doma, equipa, trabalha, cruza e vende. Cada cavalo é um <b>ativo</b> — pode valorizar (linhagem fértil, status alto) ou depreciar (envelhecer parado). Quem entende o ciclo ganha dinheiro fazendo o que o servidor inteiro precisa: <b>montaria boa e carroça pra carga</b>.</p>
+
+<div class="flow">
+  COMPRAR/DOMAR <span class="ar">→</span> EQUIPAR <span class="ar">→</span> TRABALHAR <span class="ar">→</span> CRUZAR <span class="ar">→</span> VENDER
+</div>
+<p style="color:var(--muted);margin-top:-8px;font-size:14px">O loop se fecha sozinho: o lucro da venda banca o próximo cavalo melhor, e um casal fértil vira uma fábrica de potros.</p>
+
+<h2><span class="n">2.</span>Conseguir seu primeiro cavalo</h2>
+<div class="grid2">
+  <div class="card">
+    <h3>🏪 Comprar na loja</h3>
+    <p>Catálogo com <b>175+ cavalos</b>. Adultos vêm com <b>5–20 anos</b>; potros com <b>1–5</b>. Mais caro = melhor status base e, às vezes, mais chance de vir <b>fértil</b>.</p>
+  </div>
+  <div class="card">
+    <h3>🤠 Domar selvagem <span style="color:var(--red)">(custo zero)</span></h3>
+    <p>Cavalos selvagens no mundo podem ser laçados: minigame de <b>arrastar no laço</b> — segure e controle a barra. Domou? <b>Salve no estábulo</b> pagando só <b>~1% do valor de tabela</b>, ou <b>venda direto</b>.</p>
+  </div>
+</div>
+<div class="call">
+  <span class="t">A jogada de abertura</span>
+  Domar e revender selvagens é a <b>renda de quem chegou sem nada</b>: custo zero, um minigame e um cavalo pra vender. É daqui que sai o dinheiro do seu primeiro cavalo <i>bom</i>.
+</div>
+
+<h2><span class="n">3.</span>Equipar — o melhor upgrade por dólar</h2>
+<p>Equipamento muda desempenho e valor. A tabela é o essencial; a estrela são as <b>ferraduras</b>.</p>
+<table>
+  <tr><th>Item</th><th>Preço</th><th>Pra quê</th></tr>
+  <tr><td>Sela</td><td><b>$800</b></td><td>base da montaria</td></tr>
+  <tr><td>Bolsas (alforjes)</td><td><b>$1.000</b></td><td>capacidade de carga</td></tr>
+  <tr><td>Coldre</td><td><b>$800</b></td><td>arma na montaria</td></tr>
+  <tr><td>Máscara</td><td><b>$500</b></td><td>estilo/proteção</td></tr>
+  <tr><td>Crina / cauda / cores</td><td><b>$200–300</b></td><td>customização visual</td></tr>
+  <tr><td>Ferradura (<code>Horse_Shoe</code>)</td><td>—</td><td><b>+3 de status por nível</b> (velocidade/aceleração/curva), máx. 2 níveis</td></tr>
+</table>
+<div class="call warn">
+  <span class="t">Atenção · desgaste</span>
+  Ferraduras <b>gastam com o uso</b> — recoloque quando o status cair. Uma ferradura barata num cavalo caro é, dólar por dólar, o <b>melhor upgrade do módulo</b>.
+</div>
+
+<h2><span class="n">4.</span>Cuidar — seu cavalo envelhece de verdade</h2>
+<p>Cavalos <b>envelhecem em tempo real</b> — cerca de <b>0,5 ano por dia real</b>. Aos <b>~30 anos</b> ficam velhos e podem <b>morrer</b>. Quando se machucam, cure no estábulo. A lição: <b>cavalo é ativo que deprecia</b> — não deixe o seu melhor garanhão apodrecer parado na baia.</p>
+
+<h2><span class="n">5.</span>Cruzar — onde nasce o dinheiro grande</h2>
+<p>O acasalamento leva <b>16 horas reais</b> e custa proporcional ao valor dos pais. O que separa um potro comum de um potro de fortuna é a <b>fertilidade</b> — e ela é <b>rara</b>:</p>
+<table>
+  <tr><th>Como o cavalo veio</th><th>Chance de ser fértil</th></tr>
+  <tr><td>Comprado na loja</td><td><b>30%</b></td></tr>
+  <tr><td>Domado selvagem</td><td><b>10%</b></td></tr>
+  <tr><td>Nascido de cruza</td><td><b>5%</b></td></tr>
+</table>
+<p>Itens de criador (<i>BreederFix</i> / <i>FemaleFix</i>) <b>destravam a reprodução</b> em cavalos "estéreis" — é como você força uma linhagem boa a continuar.</p>
+<div class="ex">
+  <span class="t">Exemplo prático</span>
+  <p>Você doma 6 selvagens (custo zero). Estatística: <b>~10% férteis</b> → provavelmente 1 sai fértil. Compra 1 égua fértil boa na loja (30% de chance, ou garante com <i>FemaleFix</i>). Cruza o casal (16h) → o potro tem <b>5%</b> de vir fértil. Repetindo, você monta um <b>plantel reprodutor</b> — e um potro de linhagem vale <b>mais que muita colheita</b>.</p>
+</div>
+<p style="font-size:14px;color:var(--muted)">O ciclo de <b>criação de elite</b> (linhagens, genética avançada) se conecta ao <a href="../07-genetica.md">Cap.7 — Genética</a>.</p>
+
+<h2><span class="n">6.</span>Vender & guardar</h2>
+<div class="grid2">
+  <div class="card">
+    <h3>💰 Onde vender</h3>
+    <p>Pela <b>loja</b>, pelo <b>mercado negro de cavalos</b>, ou <b>P2P</b> (jogador pra jogador). Linhagem e status ditam o preço.</p>
+  </div>
+  <div class="card">
+    <h3>📦 Onde fica guardado</h3>
+    <p>Cavalo salvo em Valentine <b>fica em Valentine</b> — cada estábulo guarda os seus. Transferir entre estábulos custa <b>$450</b>. O estábulo tem <b>storage próprio</b> (acesso só por ID autorizado).</p>
+  </div>
+</div>
+<div class="call">
+  <span class="t">Elo com outro módulo</span>
+  <b>Peles e carcaças</b> da caça vão no lombo do cavalo — é o transporte que alimenta o <a href="freezer.html">Freezer</a> e a Cozinha. Estábulo bom = caçada maior por viagem.
+</div>
+
+<h2><span class="n">7.</span>Carroças</h2>
+<p>Linha completa de carroças de <b>$600 a $2.200</b> (ou pagas em <b>ouro</b>). São o braço de <b>carga</b> do módulo — puxam o <a href="entregador.html">Entregador</a> e o transporte de produção da fazenda.</p>
+
+<h2><span class="n">8.</span>Comandos</h2>
+<table>
+  <tr><th>Comando / item</th><th>Faz</th></tr>
+  <tr><td><code>/dv</code></td><td>deleta seu cavalo/carroça na rua</td></tr>
+  <tr><td><code>/mudarc</code></td><td>muda como você senta no cavalo</td></tr>
+  <tr><td><code>/treinadorc</code></td><td>abre o menu do treinador/administração do estábulo</td></tr>
+  <tr><td><i>HorseTag</i> (item)</td><td>renomeia o cavalo</td></tr>
+</table>
+
+<h2><span class="n">9.</span>Erros que custam caro</h2>
+<ul class="steps">
+  <li>Deixar o cavalo bom <b>envelhecer parado</b> — ele deprecia sozinho até morrer.</li>
+  <li>Esquecer de <b>recolocar a ferradura</b> — você corre com status pela metade sem perceber.</li>
+  <li>Vender um cavalo <b>fértil</b> sem saber — jogou fora o ativo mais raro do módulo.</li>
+  <li>Domar sem <b>salvar nem vender</b> na hora — selvagem some se você não fixar.</li>
+</ul>
+
+<p class="tec"><b>Ficha técnica:</b> script <code>gum_stables</code> · catálogo em <code>cfg/configHorses.lua</code> (175+) e <code>cfg/configCarts.lua</code> · comandos em <code>cfg/config.lua</code> (<code>treinadorc</code>, <code>dv</code>).</p>
+
+<div class="next">
+  <a class="red" href="../apresentacao.html">← Voltar à apresentação</a>
+  <a href="README.md">Todos os módulos</a>
+  <a href="freezer.html">Próximo elo: Freezer →</a>
+</div>
+
+</div>
+</body>
+</html>
