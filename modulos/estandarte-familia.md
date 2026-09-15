@@ -9,7 +9,7 @@ Plantar o estandarte transforma sua fazenda na **sede oficial da família**: um 
 ## A dinâmica
 
 1. **Plante o estandarte** dentro da fazenda. Ele é o coração: menu de gestão, membros, livro-caixa e **até 100 móveis/estruturas** posicionáveis.
-2. **Monte as estruturas**: baús da família, **Panelão de Caldos** (ensopados coletivos com buff pro grupo: Arroz Carreteiro, Ensopado de Colter, de Peixe, de Saint Denis), **mesa de açougue/armadilheiro**, barril de água, caixa de cerveja, tendas e guarda-roupa.
+2. **Monte as estruturas**: baús da família, **Panelão de Caldos** (ensopados coletivos com buff pro grupo: Arroz Carreteiro, Caldo do Inverno Serrano, Caldo de Peixe Campeiro, Ensopado do Pantanal), **mesa de açougue/armadilheiro**, barril de água, caixa de cerveja, tendas e guarda-roupa.
 3. **Gire a economia do clã**: `materiais + suprimentos → estoque` (converte a cada **30 min**) → estoque libera **missões de entrega** — **25 / 50 / 100** de estoque (pequena/média/grande) — pagando dinheiro e **títulos de exportação**.
 4. **Sustente a base**: **imposto mensal de $5.000** (cobrado no dia 15 — deixe saldo no livro-caixa, teto de $50.000) e **mínimo de 5 membros** — senão a base é **recolhida (repo)**.
 

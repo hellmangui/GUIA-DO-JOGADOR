@@ -101,7 +101,7 @@ E o **Bar clandestino** fecha o ciclo: cofre do negócio, equipe autorizada, **r
 
 ### 4.16 — 🏕️ ESTANDARTE DA FAMÍLIA *(VIP · módulo Domínio)*
 As oficinas do **acampamento da família** (sistema Dominium, painel `/dominio`). Plantar o estandarte transforma a fazenda em **território PvP** — em troca, a família ganha oficinas coletivas:
-- **Panelão de Caldos** 🍲 *(Tier 3+)* → **ensopados coletivos** (Arroz Carreteiro, Ensopado Quente de Colter, de Peixe do Mar, de Saint Denis) — buffs para o grupo inteiro.
+- **Panelão de Caldos** 🍲 *(Tier 3+)* → **ensopados coletivos** (Arroz Carreteiro, Caldo do Inverno Serrano, Caldo de Peixe Campeiro, Ensopado do Pantanal) — buffs para o grupo inteiro.
 - **Mesa de Açougue / Armadilheiro** → transforma **materiais + suprimentos em estoque**, que libera **missões de entrega** (25/50/100 de estoque) com títulos de exportação como recompensa.
 - **Estruturas de apoio:** baús da família, barril de água, caixa de cerveja, tendas e guarda-roupa.
 
