@@ -57,8 +57,8 @@
 Quando você tiver o que defender, o jogo político abre:
 
 - **Crie/entre num clã ou gangue** — menus `/gang` e `/dominio`. Página: [Dominium](modulos/dominium.md).
-- **Territórios**: dispute, marque com grafite, colete tributos (`/territorystatus`, `/myterritories`).
-- **Missões de gangue**: diárias (gado, carroça, postes) e especiais (pirataria, extorsão) — `/checkmissions` para ver o quadro.
+- **Territórios**: dispute, marque com grafite (a lata de tinta sai da Petroleira), colete tributos — o painel `/dominio` mostra o território em tempo real.
+- **Missões de gangue**: diárias (gado, carroça) e especiais (dominação, pirataria, extorsão), pelo painel `/dominio` — e rendem os **livros de receita das armas de guerra**.
 - **Base do clã na fazenda**: [Estandarte da Família](modulos/estandarte-familia.md) (estruturas, estoque, raids).
 
 ## ✅ Checklist para sair da Fase 5

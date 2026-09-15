@@ -64,18 +64,14 @@ Somente comandos que **você** pode usar. Comandos de administração não estã
 
 | Comando | O que faz |
 |---------|-----------|
-| `/gang` | Abrir o menu da gangue |
-| `/dominio` | Abrir o menu de domínio/território |
-| `/territorystatus` | Ver o status dos territórios |
-| `/myterritories` | Ver seus territórios |
-| `/checkmissions` | Ver missões disponíveis da gangue |
-| `/startmission` | Iniciar missão de gangue |
-| `/startterritorymission` | Iniciar missão de território |
-| `/startcattlemission` | Missão diária: gado |
-| `/startcarrocamission` | Missão diária: carroça |
-| `/startpostesmission` | Missão diária: postes |
-| `/pirataria` | Missão especial: pirataria |
-| `/startextortion` | Missão especial: extorsão |
+| `/dominio` | Abrir o painel da família (perto do ponto do painel): missões, território, baú, membros e buffs |
+| `/gang` | O mesmo painel (nome antigo) |
+| `/setgangmenu` | Líder: definir o local do painel da família (1 local; espera de 1 h para mudar) |
+| `/delgraffiti` | Apagar o grafite mais próximo (15 s esfregando a parede) |
+| `/togglearea` | Mostrar ou esconder a área de captura, na missão de Dominação |
+| `/toggletimer` | Mostrar ou esconder o cronômetro de captura, na missão de Dominação |
+
+> As missões da família começam **pelo painel `/dominio`** — não existe comando para iniciar missão.
 
 ## 🩺 Comandos de profissão (exigem o emprego)
 

@@ -21,59 +21,120 @@
 <header class="hero">
   <div class="kicker">Módulo · sistema pago · camada de gameplay</div>
   <h1>⚔️ Dominium</h1>
-  <p class="lead">Política de rua. Sua família/gangue <b>marca território com grafite</b>, ativa <b>buffs territoriais</b>, faz <b>missões de dominação</b> e disputa o mapa com as outras. Onde você domina, o mundo joga a seu favor.</p>
+  <p class="lead">Política de rua. Sua família/gangue <b>marca território com grafite</b>, ativa <b>buffs territoriais</b>, faz <b>missões de dominação</b>, ganha <b>livros de receita de guerra</b> e disputa o mapa com as outras. Onde você domina, o mundo joga a seu favor.</p>
   <div class="chips">
     <span class="chip red">Famílias & territórios</span>
     <span class="chip">Grafite domina área</span>
-    <span class="chip">6 missões/dia</span>
-    <span class="chip">Buffs de território</span>
+    <span class="chip">5 missões · 3 h de espera</span>
+    <span class="chip">Livros de receita de guerra</span>
   </div>
 </header>
 
 <h2><span class="n">1.</span>Por que este módulo importa</h2>
-<p>O Dominium transforma grupos de amigos em <b>organizações com poder territorial</b>. Onde sua família domina: NPCs aliados, roubo passivo, resistência extra. Onde não domina... cuidado. Território é vantagem em <b>todo conflito</b> — quem domina, cobra.</p>
+<p>O Dominium transforma grupos de amigos em <b>organizações com poder territorial</b>. Onde sua família domina: NPCs aliados, punguistas trabalhando para vocês, resistência extra. Onde não domina... cuidado. Território é vantagem em <b>todo conflito</b> — quem domina, cobra.</p>
 
 <h2><span class="n">2.</span>A dinâmica</h2>
 <ul class="steps">
-  <li><b>Entre (ou funde) uma família.</b> O painel abre com <code>/dominio</code> perto do ponto da família (o líder define o local com <code>/setgangmenu</code> — 1 local ativo, com cooldown pra mudar).</li>
-  <li><b>Marque território:</b> use a <b>lata de tinta</b> (<i>paintcan</i>) nos <b>pontos de grafite</b> do mapa. Grafite seu na parede = área dominada. Grafite inimigo? <code>/delgraffiti</code> apaga por cima (RP de guerra de tinta).</li>
-  <li><b>Faça missões:</b> <b>6 missões</b> (diárias e especiais, reset a cada 24 h) — incluindo <b>sabotagem de postes de telégrafo</b> (escalada com minigame). Dão XP e avançam a dominação.</li>
-  <li><b>Evolua e ative buffs</b> com o XP e as <b>Moedas Imperiais</b> da família.</li>
+  <li><b>Entre (ou funde) uma família.</b> O painel abre com <code>/dominio</code> perto do ponto da família (o líder define o local com <code>/setgangmenu</code> — 1 local ativo, com espera de 1 h para mudar).</li>
+  <li><b>Marque território:</b> use a <b>lata de tinta</b> (<i>paintcan</i>) nos <b>pontos de grafite</b> do mapa. Grafite seu na parede = área dominada. Grafite inimigo? <code>/delgraffiti</code> apaga o mais próximo (15 s esfregando — RP de guerra de tinta). A lata é <b>fabricada na Petroleira</b>.</li>
+  <li><b>Faça missões:</b> <b>5 missões</b> — 2 diárias (<i>Roubo de Gado</i> e <i>Desmanche de Carroça</i>) e 3 especiais (<i>Dominação</i>, <i>Destruir Piratas</i> e <i>Extorsão</i>). Cada uma <b>fica disponível de novo 3 horas depois</b>, para a família inteira. Dão XP, dinheiro, <b>Moedas Imperiais</b> e <b>livros de receita</b>.</li>
+  <li><b>Suba de nível e ative buffs:</b> o XP sobe o nível da família; o <b>líder</b> paga os buffs em dinheiro, do próprio bolso.</li>
 </ul>
+<div class="card">
+  <p><b>Moedas Imperiais</b> são <b>suas</b>, do seu personagem — não da família. Servem para <b>adiantar a espera</b> de uma missão (de 2 a 5 moedas, conforme a missão).</p>
+</div>
 
-<h2><span class="n">3.</span>Os buffs territoriais</h2>
+<h2><span class="n">3.</span>A lata de tinta — sai da Petroleira</h2>
+<p>Fabricada na <b>Forja da Petroleira</b>, em New Hanover. Qualquer um pode fabricar:</p>
+<table>
+  <tr><th>Gasta</th><th>Rende</th></tr>
+  <tr><td>20 de petróleo do tanque + 1 <b>Petróleo Enriquecido</b> + 3 <b>Carvão Oleoso</b></td><td><b>5 Latas de Tinta</b> (2 min)</td></tr>
+</table>
+<p>O Petróleo Enriquecido vem do <b>pré-sal</b> das bombas de petróleo. <b>Quem controla o petróleo abastece a guerra de grafite.</b></p>
+
+<h2><span class="n">4.</span>Os buffs territoriais</h2>
 <table>
   <tr><th>Buff</th><th>Nível</th><th>Efeito na área dominada</th></tr>
-  <tr><td>🕵️ Mestre do Roubo</td><td><b>1</b></td><td>seus NPCs <b>furtam jogadores</b> de passagem — o líder saca o caixa no menu</td></tr>
+  <tr><td>🕵️ Mestre do Roubo</td><td><b>1</b></td><td>seus punguistas <b>batem carteira</b> de quem passa perto de um grafite seu — o dinheiro vai para o caixa da família</td></tr>
   <tr><td>🛡️ Reforços NPC</td><td><b>5</b></td><td>NPCs aliados <b>protegem e seguem</b> os membros</td></tr>
   <tr><td>🗺️ Domínio Territorial</td><td><b>5</b></td><td>revela os pontos de território no mapa da família</td></tr>
   <tr><td>💪 Resistência da Família</td><td><b>10</b></td><td>membros <b>mais resistentes</b> em território dominado</td></tr>
 </table>
 
-<h2><span class="n">4.</span>O menu da família</h2>
+<h3>🕵️ O Mestre do Roubo, em números</h3>
+<table>
+  <tr><th>Nível</th><th>Chance por minuto</th><th>Cada roubo</th><th>Custo do buff</th></tr>
+  <tr><td>1</td><td>10%</td><td>$2 a $5</td><td>$20 por 1 h</td></tr>
+  <tr><td>2</td><td>30%</td><td>$3 a $7</td><td>$180 por 2 h</td></tr>
+  <tr><td>3</td><td>40%</td><td>$5 a $10</td><td>$540 por 3 h</td></tr>
+  <tr><td>4</td><td>50%</td><td>$8 a $14</td><td>$1.320 por 4 h</td></tr>
+  <tr><td>5</td><td>70%</td><td>$10 a $20</td><td>$3.780 por 6 h</td></tr>
+</table>
+<ul class="steps">
+  <li>Vale para quem <b>não é da família</b> e fica a <b>20 m de um grafite</b> dela — no máximo uma tentativa por minuto.</li>
+  <li>O buff <b>se paga com um viajante parado no território</b> e dá lucro onde há movimento. Em ponto vazio, é dinheiro jogado fora.</li>
+  <li>Quem <b>pegar o ladrão</b> recupera o dinheiro — e ele <b>sai do caixa</b> da família.</li>
+  <li>Cada roubo dá <b>50 de XP</b> à família. Num ponto movimentado, os punguistas sobem a família mais rápido que as missões.</li>
+</ul>
+
+<h2><span class="n">5.</span>Livros de receita de guerra</h2>
+<p>As missões dão <b>livros de receita</b>. Cada livro é <b>gasto numa fabricação</b> nas oficinas de guerra: sem ele, a arma não sai. São 13 livros, em três raridades:</p>
+<table>
+  <tr><th>Raridade</th><th>Livros</th><th>De onde saem</th></tr>
+  <tr><td>Comuns</td><td>Facas · Machados · Laço · Culinária</td><td>Dominação, Destruir Piratas e a coleta de território (a cada 6 h)</td></tr>
+  <tr><td>Incomuns</td><td>Arco · Lança · Sabres · Mochilas · Armaduras</td><td>só Dominação</td></tr>
+  <tr><td>Raras</td><td>Rifles · Munições · Explosivos · Canhão</td><td>só Dominação</td></tr>
+</table>
+<p>A Dominação tem <b>20% de chance</b> de dar um livro por captura: 70% comum, 25% incomum, 5% raro.</p>
+<table>
+  <tr><th>Livro</th><th>Oficina</th><th>O que libera</th></tr>
+  <tr><td>Arco</td><td>Armaria Especial</td><td>arco melhorado</td></tr>
+  <tr><td>Sabres</td><td>Armaria Especial</td><td>sabre e catana</td></tr>
+  <tr><td>Mochilas</td><td>Armaria Especial</td><td>mochila de guerra</td></tr>
+  <tr><td>Facas</td><td>Armaria Especial</td><td>faca, facas de arremesso, cutelo</td></tr>
+  <tr><td>Machados</td><td>Armaria Especial</td><td>machadinha</td></tr>
+  <tr><td>Lança</td><td>Armaria Especial</td><td>a lança</td></tr>
+  <tr><td>Laço</td><td>Armaria Especial</td><td>laço reforçado</td></tr>
+  <tr><td>Armaduras</td><td>Armaria Especial</td><td>armadura de cavaleiro</td></tr>
+  <tr><td>Rifles</td><td>Armaria Especial</td><td>rifle varmint, faca de terror</td></tr>
+  <tr><td>Munições</td><td>Armaria Especial</td><td>munições e flechas</td></tr>
+  <tr><td>Explosivos</td><td>Armaria Especial</td><td>molotov, dinamite, boleadeira</td></tr>
+  <tr><td><b>Canhão + Explosivos</b> (os dois)</td><td>Forja Canhão</td><td>canhões Breach e Hotchkiss, metralhadoras Gatling e Maxim</td></tr>
+  <tr><td>Culinária</td><td>Caldos Raros</td><td>pratos especiais</td></tr>
+</table>
+<ul class="steps">
+  <li>A <b>Armaria Especial</b>, a <b>Forja Canhão</b>, a <b>Forja de Guerra</b> e o <b>Artesão de Guerra</b> ficam no <b>Fort Wallace</b>; os <b>Caldos Raros</b>, no <b>Mazenita Post</b> — os dois lugares são territórios de dominação.</li>
+  <li>A <b>Forja de Guerra</b> e o <b>Artesão de Guerra</b> fazem <b>peças</b> (lâminas, cabos, couros) e <b>não pedem livro</b>: qualquer um fabrica e vende para quem tem as receitas.</li>
+  <li>As mesmas armas de guerra pedem o mesmo livro <b>em qualquer bancada</b> onde aparecerem — armeiros das cidades, bancada de Explosivos, Artesanato Especial. O <b>Armeiro de Saint Denis</b> pede livro em tudo, inclusive munição.</li>
+</ul>
+
+<h2><span class="n">6.</span>O menu da família</h2>
 <div class="card">
-  <p>Missões · <b>Território em tempo real</b> (estatísticas do que está dominado) · <b>Baú da família</b> · gestão de membros · buffs. Só o <b>líder</b> compra buffs, gerencia membros e saca o dinheiro do pickpocket.</p>
+  <p>Missões · <b>Território em tempo real</b> (estatísticas do que está dominado) · <b>Baú da família</b> · gestão de membros · buffs. Só o <b>líder</b> compra buffs, gerencia membros e saca o caixa.</p>
+  <p>O <b>baú da família guarda só os livros de receita</b> — é onde a família junta o que ganha nas missões e entrega a quem fabrica.</p>
 </div>
 
-<h2><span class="n">5.</span>Como ganhar dinheiro</h2>
+<h2><span class="n">7.</span>Como ganhar dinheiro</h2>
 <ul class="steps">
-  <li><b>Pickpocket passivo:</b> área movimentada dominada = caixa pingando sozinha.</li>
-  <li><b>Missões de dominação:</b> recompensas diretas + Moedas Imperiais.</li>
+  <li><b>Punguistas no território:</b> área movimentada dominada = caixa pingando.</li>
+  <li><b>Missões:</b> recompensas diretas, Moedas Imperiais e livros de receita.</li>
+  <li><b>Armas de guerra:</b> quem tem o livro fabrica o que ninguém mais fabrica.</li>
   <li><b>O intangível:</b> território é vantagem em todo conflito — quem domina, cobra pedágio.</li>
 </ul>
 
-<h2><span class="n">6.</span>Dicas & erros</h2>
+<h2><span class="n">8.</span>Dicas & erros</h2>
 <ul class="steps">
   <li>Domine <b>onde sua família realmente circula</b> — buff em área morta é tinta jogada fora.</li>
   <li><b>Vigie seus grafites:</b> outra família pode sobrescrever e virar a área.</li>
   <li>Chegue ao <b>nível 5 rápido</b> (Reforços + mapa) — é quando o módulo liga de verdade.</li>
+  <li><b>Guarde os livros no baú</b> e combine quem fabrica: livro raro gasto em arma errada não volta.</li>
 </ul>
 <div class="call">
   <span class="t">Par perfeito</span>
   Casa com o <a href="estandarte-familia.html">Estandarte da Família</a>: o Dominium dá o <b>poder de rua</b>, o Estandarte dá a <b>base física</b>.
 </div>
 
-<p class="tec"><b>Ficha técnica:</b> scripts <code>dodi_paintwall</code> + <code>dodi_gangmissions</code> (+ props <code>grafite_dodi</code>) · grafites em pontos pré-mapeados (limitação do RedM: props 3D, não textura).</p>
+<p class="tec"><b>Ficha técnica:</b> scripts <code>dodi_paintwall</code> + <code>dodi_gangmissions</code> (+ props <code>grafite_dodi</code>) · livros gastos nas oficinas do <code>fx-craft</code> · lata fabricada no <code>d_labs_oil</code> · grafites em pontos pré-mapeados (limitação do RedM: props 3D, não textura).</p>
 
 <div class="next">
   <a class="red" href="../apresentacao.html">← Voltar à apresentação</a>

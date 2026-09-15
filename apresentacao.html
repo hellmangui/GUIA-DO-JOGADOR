@@ -1107,7 +1107,7 @@ td b{color:var(--red)}
     <a class="card accent" href="modulos/entregador.html" style="text-decoration:none;color:inherit"><span class="ico">📦</span><h3>Entregador <span style="color:var(--red);font-size:.8em">↗</span></h3><p>$0,50/item, carreira em 5 níveis, <b>Licença de Tradesman</b> (nv 3) → carroça própria de até 14 caixas.</p></a>
     <a class="card accent" href="modulos/freezer.html" style="text-decoration:none;color:inherit"><span class="ico">🧊</span><h3>Freezer <span style="color:var(--red);font-size:.8em">↗</span></h3><p><b>77 carcaças</b> → cortes nobres p/ açougue e Cozinha. Repare (mín. 50%); o dono pode <b>cobrar uso</b>.</p></a>
     <a class="card accent" href="modulos/destilaria-bar.html" style="text-decoration:none;color:inherit"><span class="ico">🍺</span><h3>Destilaria &amp; Bar <span style="color:var(--red);font-size:.8em">↗</span></h3><p>Moonshine ilegal: reputação, entregas, denúncia — xerifes podem <b>queimar o bar</b>.</p></a>
-    <a class="card accent" href="modulos/dominium.html" style="text-decoration:none;color:inherit"><span class="ico">⚔️</span><h3>Dominium <span style="color:var(--red);font-size:.8em">↗</span></h3><p>Grafite marca território → <b>buffs</b> (pickpocket passivo, NPCs aliados, resistência) + 6 missões/dia.</p></a>
+    <a class="card accent" href="modulos/dominium.html" style="text-decoration:none;color:inherit"><span class="ico">⚔️</span><h3>Dominium <span style="color:var(--red);font-size:.8em">↗</span></h3><p>Grafite marca território → <b>buffs</b> (punguistas, NPCs aliados, resistência) + 5 missões e livros de receita de guerra.</p></a>
     <a class="card accent" href="modulos/estandarte-familia.html" style="text-decoration:none;color:inherit"><span class="ico">🏕️</span><h3>Estandarte <span style="color:var(--red);font-size:.8em">↗</span></h3><p>Base do clã: estoque → <b>entregas com títulos</b>. Preço: raids, imposto <b>$5 mil/mês</b>, mín. 5 membros.</p></a>
     <div class="card filled"><h3>🧩 O que é um módulo</h3><p>Pago como as oficinas VIP, mas é um <b>script inteiro</b> — camada nova de gameplay e renda. <b>Cada módulo tem seu slide a seguir →</b> (e página completa em <i>modulos/</i>).</p></div>
   </div>
@@ -1126,7 +1126,7 @@ td b{color:var(--red)}
       <tr><td>⛵ <b>Barcos</b></td><td>Canoa barata → navio</td><td>Pesca de rede (cooldown 5 min): volume + raridades (esturjão, tubarão, mapa do tesouro)</td><td>Carvão: 1 item = 20 de combustível — sem carvão, jangada</td></tr>
       <tr><td>🍺 <b>Destilaria &amp; Bar</b></td><td>Alambique (craft próprio)</td><td>Moonshine, bar clandestino, entregas ao submundo</td><td><b>Ilegal:</b> fumaça visível, denúncias, xerife queima o bar</td></tr>
       <tr><td>🚂 <b>Trens</b></td><td><b>$7.000 → $286.000</b></td><td>Frete pesado (baú = dezenas de carroças), linha de passageiros; revenda a 60%</td><td>Exige licença ferroviária; caldeira superaquece &gt;90%</td></tr>
-      <tr><td>⚔️ <b>Dominium</b></td><td>Clã formado</td><td>Pickpocket passivo em território, 6 missões/dia, buffs</td><td>PvP territorial por natureza</td></tr>
+      <tr><td>⚔️ <b>Dominium</b></td><td>Clã formado</td><td>Punguistas no território, 5 missões, buffs e livros de receita de guerra</td><td>PvP territorial por natureza</td></tr>
       <tr><td>🏕️ <b>Estandarte</b></td><td><b>$5.000/mês</b> + 5 membros</td><td>Estoque → entregas → títulos de exportação</td><td>Sua fazenda vira alvo de <b>raid</b></td></tr>
     </tbody>
   </table>
@@ -1301,16 +1301,16 @@ td b{color:var(--red)}
       <table style="margin-top:16px">
         <thead><tr><th>Nível</th><th>Buff da família</th></tr></thead>
         <tbody>
-          <tr><td><span class="tag-red">Nv 1</span></td><td><b>Mestre do Roubo</b> — seus NPCs furtam jogadores de passagem; o líder saca o caixa</td></tr>
+          <tr><td><span class="tag-red">Nv 1</span></td><td><b>Mestre do Roubo</b> — seus punguistas batem carteira de quem passa perto do seu grafite ($20/h no nível 1)</td></tr>
           <tr><td><span class="tag-red">Nv 5</span></td><td><b>Reforços NPC</b> (aliados seguem) + <b>Domínio Territorial</b> (mapa dos pontos)</td></tr>
           <tr><td><span class="tag-red">Nv 10</span></td><td><b>Resistência da Família</b> — membros mais duros em território dominado</td></tr>
         </tbody>
       </table>
-      <p class="footnote" style="margin-top:14px"><code>/dominio</code> abre o painel · o líder fixa o ponto com <code>/setgangmenu</code> · <code>/delgraffiti</code> apaga a marca inimiga. Baú da família incluso.</p>
+      <p class="footnote" style="margin-top:14px"><code>/dominio</code> abre o painel · o líder fixa o ponto com <code>/setgangmenu</code> · <code>/delgraffiti</code> apaga a marca inimiga. Baú da família para os livros de receita · lata de tinta fabricada na Petroleira.</p>
     </div>
     <div style="display:flex;flex-direction:column;gap:14px">
-      <div class="stat" style="border-top-color:var(--red)"><div class="v"><em>6</em> missões/dia</div><div class="l">reset 24h · XP + Moedas Imperiais</div></div>
-      <p style="font-size:15.5px;line-height:1.5;color:var(--on-surface)">As diárias e especiais vão de recados a <b>sabotar telégrafos</b> — é o combustível que sobe o nível da família.</p>
+      <div class="stat" style="border-top-color:var(--red)"><div class="v"><em>5</em> missões</div><div class="l">3 h de espera · XP, Moedas Imperiais e livros de receita</div></div>
+      <p style="font-size:15.5px;line-height:1.5;color:var(--on-surface)">Das diárias (gado, carroça) às especiais (<b>dominar território</b>, piratas, extorsão) — é o combustível que sobe o nível da família e rende os <b>livros das armas de guerra</b>.</p>
       <div class="card filled" style="margin:0"><h3>💡 Onde marcar</h3><p>Domine <b style="color:#fff">onde a família já circula</b> e corra pro <b style="color:#fff">nível 5</b> — é quando os buffs pesam. Faz par natural com o Estandarte.</p></div>
     </div>
   </div>
