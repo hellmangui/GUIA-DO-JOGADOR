@@ -9,7 +9,7 @@ O Dominium transforma grupos de amigos em **organizações com poder territorial
 ## A dinâmica
 
 1. **Entre (ou funde) uma família.** O painel principal abre com **`/dominio`** perto do ponto da família (o líder define o local com `/setgangmenu` — 1 local ativo, com espera de 1 h para mudar).
-2. **Marque território**: use a **lata de tinta** (*paintcan*) nos **pontos de grafite** espalhados pelo mapa. Grafite seu na parede = área dominada. Viu grafite inimigo? **`/delgraffiti`** apaga o mais próximo (15 s esfregando a parede — RP de guerra de tinta). A lata é **fabricada na Petroleira** (ver abaixo).
+2. **Marque território**: use a **lata de tinta** (*paintcan*) nos **pontos de grafite** espalhados pelo mapa — todos **fora das cidades**. Grafite seu na parede = área dominada. Viu grafite inimigo? **`/delgraffiti`** apaga o mais próximo (15 s esfregando a parede — RP de guerra de tinta). A lata é **fabricada na Petroleira** (ver abaixo).
 3. **Faça missões**: **5 missões** — 2 diárias (*Roubo de Gado* e *Desmanche de Carroça*) e 3 especiais (*Dominação*, *Destruir Piratas* e *Extorsão*). Cada uma **fica disponível de novo 3 horas depois**, para a família inteira. Missões dão XP à família, dinheiro, **Moedas Imperiais** e **livros de receita**.
 4. **Suba de nível e ative buffs**: o XP sobe o nível da família; o **líder** paga os buffs em dinheiro, do próprio bolso.
 
@@ -73,7 +73,7 @@ A Dominação tem **20% de chance** de dar um livro por captura: 70% comum, 25% 
 | Lança | Armaria Especial | a lança |
 | Laço | Armaria Especial | laço reforçado |
 | Armaduras | Armaria Especial | armadura de cavaleiro |
-| Rifles | Armaria Especial | rifle varmint, faca de terror |
+| Rifles | Armaria Especial | rifle varmint, mosquete, pistola de pederneira |
 | Munições | Armaria Especial | munições e flechas |
 | Explosivos | Armaria Especial | molotov, dinamite, boleadeira |
 | **Canhão + Explosivos** (os dois) | Forja Canhão | canhões Breach e Hotchkiss, metralhadoras Gatling e Maxim |
@@ -82,6 +82,8 @@ A Dominação tem **20% de chance** de dar um livro por captura: 70% comum, 25% 
 - A **Armaria Especial**, a **Forja Canhão**, a **Forja de Guerra** e o **Artesão de Guerra** ficam no **Fort Wallace**; os **Caldos Raros**, no **Mazenita Post** — os dois lugares são territórios de dominação.
 - A **Forja de Guerra** e o **Artesão de Guerra** fazem **peças** (lâminas, cabos, couros) e **não pedem livro**: qualquer um fabrica e vende para quem tem as receitas.
 - As mesmas armas de guerra pedem o mesmo livro **em qualquer bancada** onde aparecerem — armeiros das cidades, bancada de Explosivos, Artesanato Especial. O **Armeiro de Saint Denis** pede livro em tudo, inclusive munição.
+- Na **bancada de Explosivos** e na **Forja Canhão** a fabricação vira **encomenda**: faça o pedido, volte depois do tempo e retire na lista de encomendas da bancada.
+- A Armaria Especial também faz a **Forja de Campanha** (categoria Especiais, nível 5), que **não pede livro** — ver *Fundição e a Forja de Campanha* no [Capítulo 5](../05-industrias-e-negocios.md).
 
 ## O menu da família
 
