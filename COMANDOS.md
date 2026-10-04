@@ -11,6 +11,14 @@ Somente comandos que **você** pode usar. Comandos de administração não estã
 | `/bloodtype` | Ver seu tipo sanguíneo |
 | `/mydeathcount` | Ver quantas vezes você morreu neste restart |
 
+## 📋 Geral
+
+| Comando | O que faz |
+|---------|-----------|
+| **F3** (tecla) | Menu rápido: interação, personagem, ofícios, empresa, casas, domínio e pets |
+| `/loja` | Abrir a Loja VIP (moedas, ouro, status e módulos da fazenda) |
+| `/meuvip` | Ver o seu VIP ativo e quantos dias faltam |
+
 ## 🔥 Craft & Oficinas
 
 | Comando | O que faz |
@@ -33,6 +41,7 @@ Somente comandos que **você** pode usar. Comandos de administração não estã
 | Comando | O que faz |
 |---------|-----------|
 | `/fazenda` | Gerenciar seu rancho |
+| `/minhacasa` | Gerenciar sua casa |
 | `/animal` | Ver a posição do seu animal |
 | `/estacao` | Ver as estações de trabalho do rancho e seus IDs |
 | `/trabalhar <id>` | Trabalhar na estação indicada |
@@ -59,6 +68,7 @@ Somente comandos que **você** pode usar. Comandos de administração não estã
 | Comando | O que faz |
 |---------|-----------|
 | `/dv` | Deletar seu cavalo/carroça atual |
+| **Alt esquerdo** (segurar, perto do cavalo) | Pôr no cavalo, ou tirar dele, quem você carrega amarrado |
 
 ## ⚔️ Clãs & Gangues
 
@@ -79,11 +89,14 @@ Somente comandos que **você** pode usar. Comandos de administração não estã
 |---------|-----------|-----------|
 | `/docon` | Médico | Entrar/sair de plantão médico |
 | `/chairExamine` | Médico | Examinar paciente sentado na cadeira |
+| `/prontuario` | Médico | Prontuários dos pacientes |
+| `/carteiro` | Correio | Ver as casas de entrega |
 
 ---
 
 ### Teclas importantes (sem comando)
 
+- **F3** — menu rápido
 - **E** — interagir/craftar perto de fogueiras, bancadas, lojas e NPCs
 - **ENTER** — abrir lojas e menus de NPC (açougue, lendários...)
 - **G** — capturar/conduzir gado selvagem; auxiliar nascimento no rancho; abrir menus de negócio

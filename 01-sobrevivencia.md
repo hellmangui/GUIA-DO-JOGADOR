@@ -23,6 +23,9 @@
 - **Médicos**: jogadores de plantão ou o consultório NPC. Sente na cadeira e será examinado.
 - **Veneno**: cobra e afins. Antídoto no bolso é vida. (Dizem os vaqueiros que na falta de antídoto, urina serve. Não perguntamos mais.)
 - `/bloodtype` mostra seu tipo sanguíneo — importante em transfusões.
+- **A doença demora a aparecer.** Doença, veneno, hipotermia e febre de chuva só começam alguns minutos depois. Pegou hipotermia? Você ainda tem uns cinco minutos para achar uma fogueira.
+- **Doença não mata sozinha**, mas tira vida aos poucos até você se tratar.
+- **Morrer**: ao renascer você perde itens, armas, munição e o dinheiro do bolso. O ouro e o banco ficam, e você volta fraco. Guarde o que importa em casa ou no banco antes de sair da cidade.
 
 ## 4. O craft da fogueira (seu primeiro tech tree)
 

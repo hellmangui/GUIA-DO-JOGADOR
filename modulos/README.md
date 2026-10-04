@@ -2,7 +2,7 @@
 
 > **O que é um módulo?** Diferente das oficinas (bancadas de craft), um módulo é um **sistema completo e independente** — um script inteiro que adiciona uma **nova camada de gameplay** à sua fazenda e à sua vida no Pantanal: novos loops, novas profissões, novas formas de **ganhar dinheiro**. Assim como as oficinas VIP, **módulos são pagos** — você escolhe quais camadas ativar.
 
-## As 8 camadas
+## As 9 camadas
 
 | Módulo | A camada que adiciona | Dinheiro vem de |
 |--------|----------------------|-----------------|
@@ -14,6 +14,7 @@
 | 🍺 [Destilaria & Bar](destilaria-bar.md) | Negócio ilegal: moonshine, bar clandestino e entregas | vendas ao submundo (cofre do bar) |
 | ⚔️ [Dominium](dominium.md) | Famílias & territórios: grafite, buffs e missões | pickpocket em território, missões |
 | 🏕️ [Estandarte da Família](estandarte-familia.md) | Base de clã na fazenda: estruturas, estoque e raids | entregas de estoque (títulos de exportação) |
+| 🐓 [Rinha de Galos](rinha.md) | Galo de briga seu: oficina, ovo, cuidado, passeio, treino e rodada | lutas, bolsa e apostas |
 
 ## Como escolher
 

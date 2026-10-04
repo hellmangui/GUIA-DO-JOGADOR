@@ -61,6 +61,25 @@ Quando você tiver o que defender, o jogo político abre:
 - **Missões de gangue**: diárias (gado, carroça) e especiais (dominação, pirataria, extorsão), pelo painel `/dominio` — e rendem os **livros de receita das armas de guerra**.
 - **Base do clã na fazenda**: [Estandarte da Família](modulos/estandarte-familia.md) (estruturas, estoque, raids).
 
+## ⚗️ Fundição e a Forja de Campanha
+
+A **Forja de Campanha** é peça de alquimista: uma fornalha de levar e montar onde precisar. **Use o item** para assentá-la no chão (gire e confirme o lugar). Perto dela aparecem **interação de fabricação**, que abre a **Fundição**, e **remover bancada** (só o dono remove). Forja montada e sem uso some depois de 30 minutos, e cada um mantém no máximo duas montadas.
+
+- **Fabricar** — Armaria Especial, categoria Especiais, **nível 5**, sem livro: 1 Caixa de Ervas do Alquimista II, 2 Essências do Pantanal, 3 Placas e 3 Barras de Aço Diablo, 6 Quartzo Aurífero, 6 Pedra Pirita, 6 Enxofre, 4 Vidro Polido, 2 Lentes de Cristal Fino, 10 Carvão e o Grampo de Forja (não é gasto).
+- **Comprar pronta** — Fundição Imperial, **$7.500**.
+
+**O que a Fundição faz** (toda receita pede solvente de metal e molde de lingote):
+
+| Entra | Sai |
+|---|---|
+| 10 pepitas de ouro | 1 lingote bruto de ouro |
+| 1 lingote bruto de ouro | 1 lingote de ouro |
+| 3 minérios de prata | 3 lingotes brutos de prata |
+| 1 lingote bruto de prata | 3 lingotes de prata |
+| 3 meteoritos Diablo | 4 minérios de schreibersite |
+
+**O ouro vira dinheiro no banco.** O banco compra o lingote de ouro por **$530**, ou **$640** num banco central; o preço do dia varia um pouco. As 10 pepitas que vão num lingote rendem $300 no garimpo — fundidas, rendem mais. É o trabalho da Fundição que paga.
+
 ## ✅ Checklist para sair da Fase 5
 
 - [ ] Uma fonte de renda "empresarial" (dono, sócio ou funcionário de algo)
