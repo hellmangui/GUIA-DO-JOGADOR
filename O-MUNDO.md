@@ -25,7 +25,7 @@ Dentro das muralhas, as duas se tratam com cortesia fria. Fora delas, não há l
 
 **Matteo Sevskaya**, o primogênito, é a **Mão do Rei**. Assina pelo Banco, senta no Senado e tem nas mãos a licença de exportação. Pediu terra ao pai em vez de cargo e fez do pior pedaço do interior a maior fazenda do Pantanal. Negocia com os Kohani, e as carroças dele chegam inteiras. Quem já atravessou o interior com ele diz que ele mata como o irmão. A diferença é que José Rico mata pela regra, e Matteo, quando lhe parece.
 
-**José Rico Sevskaya**, o segundo, comanda a **Guarda Real**: a única força do Império que responde ao rei e a mais ninguém. É por causa dele que a muralha está de pé e que as estradas ainda têm patrulha. Não precisa de assinatura. Precisa de ordem.
+**José Rico Sevskaya**, o segundo, comanda a **Guarda Real** e é a **força do Império**. Tudo o que o rei tem está sob o controle dele. É o protetor do povo: com ele estão seguros as instituições, a monarquia e cada cidadão. É por causa dele que a muralha está de pé e que as estradas ainda têm patrulha. Não precisa de assinatura. Precisa de ordem.
 
 > *"Coroa não se dá. Se pega."* (James Sevskaya)
 
