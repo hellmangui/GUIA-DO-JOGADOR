@@ -1,8 +1,8 @@
-# 🐓 MÓDULO — Rinha de Galos
+# 🐓 MÓDULO - Rinha de Galos
 
 > 🕶️ **Atividade do submundo:** a rinha é uma **atividade ilegal**.
 >
-> **A camada que adiciona:** o seu **próprio galo de briga**. Você o consegue, cuida dele numa **oficina**, passeia com ele, treina, e o leva à areia para lutar — e a apostar.
+> **A camada que adiciona:** o seu **próprio galo de briga**. Você o consegue, cuida dele numa **oficina**, passeia com ele, treina, e o leva à areia para lutar, e a apostar.
 
 ## O que muda no seu jogo
 

@@ -25,7 +25,7 @@ Somente comandos que **você** pode usar. Comandos de administração não estã
 |---------|-----------|
 | `/craftingmenu` | Abrir o menu de craft da fogueira (ou use o prompt **E** perto dela) |
 
-> As demais oficinas (bancadas, livros de receita) funcionam por **prompt** ao se aproximar — sem comando.
+> As demais oficinas (bancadas, livros de receita) funcionam por **prompt** ao se aproximar, sem comando.
 
 ## 🌿 Coleta & Caça
 
@@ -81,7 +81,7 @@ Somente comandos que **você** pode usar. Comandos de administração não estã
 | `/togglearea` | Mostrar ou esconder a área de captura, na missão de Dominação |
 | `/toggletimer` | Mostrar ou esconder o cronômetro de captura, na missão de Dominação |
 
-> As missões da família começam **pelo painel `/dominio`** — não existe comando para iniciar missão.
+> As missões da família começam **pelo painel `/dominio`**: não existe comando para iniciar missão.
 
 ## 🩺 Comandos de profissão (exigem o emprego)
 
@@ -96,13 +96,13 @@ Somente comandos que **você** pode usar. Comandos de administração não estã
 
 ### Teclas importantes (sem comando)
 
-- **F3** — menu rápido
-- **E** — interagir/craftar perto de fogueiras, bancadas, lojas e NPCs
-- **ENTER** — abrir lojas e menus de NPC (açougue, lendários...)
-- **G** — capturar/conduzir gado selvagem; auxiliar nascimento no rancho; abrir menus de negócio
-- **SPACE** — iniciar mineração/corte de árvore; acelerar craft
-- **Clique esquerdo** — golpear (minerar/cortar/coletar produto de animal)
-- **F** — parar de minerar/cortar
-- **Botão direito** — extrair sangue de animal tranquilizado (Naturalista)
+- **F3**: menu rápido
+- **E**: interagir/craftar perto de fogueiras, bancadas, lojas e NPCs
+- **ENTER**: abrir lojas e menus de NPC (açougue, lendários...)
+- **G**: capturar/conduzir gado selvagem; auxiliar nascimento no rancho; abrir menus de negócio
+- **SPACE**: iniciar mineração/corte de árvore; acelerar craft
+- **Clique esquerdo**: golpear (minerar/cortar/coletar produto de animal)
+- **F**: parar de minerar/cortar
+- **Botão direito**: extrair sangue de animal tranquilizado (Naturalista)
 
-> Algo não funciona ou está diferente? O guia é vivo — reporte para a equipe.
+> Algo não funciona ou está diferente? O guia é vivo: reporte para a equipe.

@@ -1,20 +1,20 @@
-# 🍺 MÓDULO — Destilaria & Bar
+# 🍺 MÓDULO - Destilaria & Bar
 
-> **A camada que adiciona:** o **submundo**. Um negócio ilegal completo — produção de moonshine, bar clandestino, compradores do crime e a lei na sua cola.
+> **A camada que adiciona:** o **submundo**. Um negócio ilegal completo: produção de moonshine, bar clandestino, compradores do crime e a lei na sua cola.
 
 ## O que muda no seu jogo
 
-É o módulo de **maior risco e maior personalidade**: você monta um bar escondido, instala alambiques, produz bebida e vende para o submundo. Tudo dentro do RP de ilegalidade — com fumaça, denúncia e xerife.
+É o módulo de **maior risco e maior personalidade**: você monta um bar escondido, instala alambiques, produz bebida e vende para o submundo. Tudo dentro do RP de ilegalidade: com fumaça, denúncia e xerife.
 
 ## A dinâmica (o ciclo do contrabando)
 
-1. **Monte o bar**: use um item de interior (*moonshine_interior1–7*) para criar a entrada. **1 bar por jogador.**
+1. **Monte o bar**: use um item de interior (*moonshine_interior1 a 7*) para criar a entrada. **1 bar por jogador.**
 2. **Instale alambiques** (itens utilizáveis, **máx. 2 por jogador**). Cada um tem **10 níveis de XP** e **durabilidade própria**:
    - 🥃 **Destilaria Artesanal** *(still01)* → do básico ao **Moonshine de Sangue**.
    - ⚗️ **Destilaria Química** *(still02)* → destilados premium, **explosivos e munições especiais**.
    - 🍺 **Livro do Bar (Destilaria Avançada)** → produção **em lote (×11)**: aguardente, cachaça, bourbon, cerveja, vodka, whisky...
-3. **Consiga ingredientes**: zonas de coleta (amora, amora-preta, uva) + insumos de fazenda (água filtrada, fermento, frascos, grãos secos) — a Plantação e o Fermentador alimentam o crime.
-4. **Produza** (multiplicador até ×5; mais volume = mais tempo e mais desgaste do alambique — **repare!**).
+3. **Consiga ingredientes**: zonas de coleta (amora, amora-preta, uva) + insumos de fazenda (água filtrada, fermento, frascos, grãos secos). A Plantação e o Fermentador alimentam o crime.
+4. **Produza** (multiplicador até ×5; mais volume = mais tempo e mais desgaste do alambique, **repare!**).
 5. **Venda**: abra o menu do negócio, escolha um **comprador NPC** (cada um exige **reputação** mínima), aceite a missão, chame a carroça com **`/bar`** e entregue no prazo. O dinheiro cai no **cofre do negócio**.
 
 ## ⚠️ Os riscos (é ilegal MESMO)
@@ -40,7 +40,7 @@
 
 ## 💡 Dicas
 
-- Produza no ritmo da durabilidade — alambique zerado no meio do lote é prejuízo.
+- Produza no ritmo da durabilidade: alambique zerado no meio do lote é prejuízo.
 - Suba reputação com entregas pequenas antes de aceitar as grandes.
 - Localização do bar é estratégia: perto demais da cidade = lei; longe demais = logística cara.
 

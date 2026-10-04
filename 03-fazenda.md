@@ -1,6 +1,6 @@
-# 🚜 CAPÍTULO 3 — A Fazenda (os Núcleos)
+# 🚜 CAPÍTULO 3 - A Fazenda (os Núcleos)
 
-> **Fase 3 da Linha do Tempo.** A fazenda é a base de quase tudo no servidor. Ela é feita de **3 núcleos** — os grupos de recursos que dão **vida e identidade** à propriedade:
+> **Fase 3 da Linha do Tempo.** A fazenda é a base de quase tudo no servidor. Ela é feita de **3 núcleos**: os grupos de recursos que dão **vida e identidade** à propriedade:
 
 | Núcleo | O que é | Sistema |
 |--------|---------|---------|
@@ -20,14 +20,14 @@ Os núcleos **escalam com o tier da fazenda** (1→5): a Moradia vira Mansão Ru
 
 ## 🏡 Casa
 
-O núcleo que dá **vida** à propriedade — é nela que você mora, guarda e gerencia.
+O núcleo que dá **vida** à propriedade: é nela que você mora, guarda e gerencia.
 
-- **Gestão** com **`/minhacasa`**. Compre (revende com taxa de volta) ou **alugue** — cobrança a cada **7 dias**, pré-pague até **4 semanas**. Sem casa ainda? **Quartos de hotel** (Valentine etc.) por ~$5 com baú de 30.
-- **Chaves & acesso** (administração social): dê acesso a quem confia. ⚠️ Portas trancadas podem ser **arrombadas com lockpick** — não deixe destrancado.
+- **Gestão** com **`/minhacasa`**. Compre (revende com taxa de volta) ou **alugue**: cobrança a cada **7 dias**, pré-pague até **4 semanas**. Sem casa ainda? **Quartos de hotel** (Valentine etc.) por ~$5 com baú de 30.
+- **Chaves & acesso** (administração social): dê acesso a quem confia. ⚠️ Portas trancadas podem ser **arrombadas com lockpick**: não deixe destrancado.
 - **Storage pessoal** + **guarda-roupa** (troca de roupas em casa).
-- **Mobília**: construa e posicione móveis com os livros de construção (*Build Book* / *Interior Book*) — centenas de opções.
-- **Upgrades da casa por nível**: cada nível pede **kits de construção** (20 → 50 kits, madeira ou pedra) — os kits saem da **Marcenaria** ([Cap.4](04-oficinas.md)). A casa cresce com as suas oficinas.
-- 🌱 **Plantar dentro de casa**: até **100 plantas** dentro da propriedade, **protegidas automaticamente** — a estufa do early game.
+- **Mobília**: construa e posicione móveis com os livros de construção (*Build Book* / *Interior Book*). Centenas de opções.
+- **Upgrades da casa por nível**: cada nível pede **kits de construção** (20 → 50 kits, madeira ou pedra). Os kits saem da **Marcenaria** ([Cap.4](04-oficinas.md)). A casa cresce com as suas oficinas.
+- 🌱 **Plantar dentro de casa**: até **100 plantas** dentro da propriedade, **protegidas automaticamente**. A estufa do early game.
 
 ## 🌱 Plantação
 
@@ -75,7 +75,7 @@ O núcleo que dá **vida** à propriedade — é nela que você mora, guarda e g
 | Alimentar | encher o **cocho** de comida (cada espécie tem sua ração) e **água** |
 | Tratar | remédio quando doente, **carinho** sempre (sim, funciona) |
 | Coletar produto | **clique esquerdo** no animal (minigame) |
-| Limpar | o cocô acumulado vira **FERTILIZANTE** — ouro para a plantação |
+| Limpar | o cocô acumulado vira **FERTILIZANTE**: ouro para a plantação |
 | Localizar animal | `/animal` |
 
 ### O que cada animal dá
@@ -92,24 +92,24 @@ O núcleo que dá **vida** à propriedade — é nela que você mora, guarda e g
 - Animais **envelhecem** e podem morrer de velhice. A **satisfação** (comida+água+saúde+carinho) define o quanto produzem.
 - Animais também têm **XP e nível (0→10)**: um animal bem cuidado e experiente produz até **1,9× mais**. Cuidar do mesmo animal por anos compensa.
 - O **cocho é dividido**: metade da capacidade para comida, metade para água (ex.: cocho de 200 kg = 100 + 100).
-- **Fertilizante**: limpe o cocô com o **rastelo** — animal satisfeito rende até **4 fertilizantes** por limpeza.
+- **Fertilizante**: limpe o cocô com o **rastelo**. Animal satisfeito rende até **4 fertilizantes** por limpeza.
 - **Vender animais**: conduza-os até os pontos de venda (Valentine, Emerald Ranch).
 - O rancho tem **armazém** próprio (capacidade 500). Cavalos criados podem ser montados a partir de **4,5 anos**.
 
 ### Estações de trabalho (rancho)
 
-- `/estacao` — lista as estações disponíveis e seus IDs
-- `/trabalhar <id>` — executa o trabalho da estação
-- `/marcarlocal <id>` / `/resetarlocal <id|all>` — posicionar estações
+- `/estacao`: lista as estações disponíveis e seus IDs
+- `/trabalhar <id>`: executa o trabalho da estação
+- `/marcarlocal <id>` / `/resetarlocal <id|all>`: posicionar estações
 
 ### Reprodução (o começo da genética)
 
 - **Nascimento assistido**: prompt **G** na fêmea prenha (requer kit de inseminação especial).
-- **Inseminação artificial**: kit de inseminação + sêmen — a qualidade do sêmen (fraco/médio/forte) define a chance e a linhagem da cria. O caminho para animais de elite passa pela **Criogenia** ([Capítulo 7](07-genetica.md)).
+- **Inseminação artificial**: kit de inseminação + sêmen. A qualidade do sêmen (fraco/médio/forte) define a chance e a linhagem da cria. O caminho para animais de elite passa pela **Criogenia** ([Capítulo 7](07-genetica.md)).
 
 ## 💡 Bootstrap: como começar sem nada
 
-1. Compre **sementes e ração nas lojas** (Loja do Agricultor, Loja Rancho) — preço-teto, mas destrava.
+1. Compre **sementes e ração nas lojas** (Loja do Agricultor, Loja Rancho): preço-teto, mas destrava.
 2. Plante o básico: **trigo, milho e maçã** (viram ração no futuro Zelador).
 3. Primeiro animal: **galinha** (barata, bota ovo, come milho).
 4. Reinvista: colheita → venda → mais animais → fertilizante grátis → colheita melhor.
@@ -123,4 +123,4 @@ O núcleo que dá **vida** à propriedade — é nela que você mora, guarda e g
 - [ ] Loop fertilizante ⇄ ração girando
 - [ ] Estoque de grãos, leite, ovos, lã e couro
 
-➡️ **Próximo: [Capítulo 4 — Oficinas & Produção](04-oficinas.md)**
+➡️ **Próximo: [Capítulo 4: Oficinas & Produção](04-oficinas.md)**

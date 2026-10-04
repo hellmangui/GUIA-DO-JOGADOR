@@ -1,33 +1,33 @@
-# 🏭 CAPÍTULO 5 — Indústrias & Negócios
+# 🏭 CAPÍTULO 5 - Indústrias & Negócios
 
-> **Fase 5 da Linha do Tempo.** Você já produz. Agora vai **empregar, ser empregado ou empreender** — e se mover pelo Pantanal como gente grande.
+> **Fase 5 da Linha do Tempo.** Você já produz. Agora vai **empregar, ser empregado ou empreender**, e se mover pelo Pantanal como gente grande.
 
 ## 🌾 Cooperativas (negócios compráveis)
 
-### O Moinho — `/moinho`
-- Um jogador pode **comprar o moinho** (~$2.000–3.000) e virar patrão: define os preços da loja e **quanto paga por depósito** aos trabalhadores.
+### O Moinho: `/moinho`
+- Um jogador pode **comprar o moinho** (~$2.000 a 3.000) e virar patrão: define os preços da loja e **quanto paga por depósito** aos trabalhadores.
 - **Trabalhar no moinho (aberto a todos, ótimo para iniciantes):**
   1. Vá aos **campos públicos**: Campo de Algodão, Campo de Trigo, Campo de Milho.
-  2. Colha e **deposite no moinho** — receba na hora (ex.: algodão $1,60, trigo $1,20, lã $3,00 por unidade).
+  2. Colha e **deposite no moinho**: receba na hora (ex.: algodão $1,60, trigo $1,20, lã $3,00 por unidade).
 - O moinho **processa**: trigo, algodão, lã, milho → farinha de milho.
 - **Manutenção**: o motor desgasta (reparar) e o estábulo suja (limpar consome trigo). Upgrades do nível 1 ao 5.
 
-### Cooperativa de Tabaco — `/tabaco`
+### Cooperativa de Tabaco: `/tabaco`
 - Mesmo modelo: negócio comprável, dono define pagamentos.
 - Produz: **cigarro, cachimbo, tabaco de mascar, charuto** (paga por produto processado).
-- Lemoyne é a capital do tabaco — os produtos regionais de lá valem mais ([Capítulo 6](06-economia-e-exportacao.md)).
+- Lemoyne é a capital do tabaco: os produtos regionais de lá valem mais ([Capítulo 6](06-economia-e-exportacao.md)).
 
 ## 🏢 Empresas (empregos de firma)
 
 ### Madeireira (job)
 - Estrutura de empresa: **chefe** compra a firma, contrata trabalhadores por **cargos** (grades), armazéns com permissões por cargo.
-- Ferramentas profissionais com **durabilidade E afiação**: machado madeireiro, machado pesado, serrote — afie e repare, ou quebram.
-- Árvores têm **qualidade (20–100%)** — o preço acompanha. Coleta de **resina** e **missões de entrega** de toras.
+- Ferramentas profissionais com **durabilidade E afiação**: machado madeireiro, machado pesado, serrote. Afie e repare, ou quebram.
+- Árvores têm **qualidade (20 a 100%)**: o preço acompanha. Coleta de **resina** e **missões de entrega** de toras.
 
 ### Mineradora (job)
 - Mesmo modelo: firma, chefe, **contratos de mineração**, armazéns.
 - Mineração industrial (dinamite e equipamentos pesados).
-- `/minerhat` — capacete de mineiro (só para contratados).
+- `/minerhat`: capacete de mineiro (só para contratados).
 
 ## 🚚 Entregador
 
@@ -56,17 +56,17 @@
 
 Quando você tiver o que defender, o jogo político abre:
 
-- **Crie/entre num clã ou gangue** — menus `/gang` e `/dominio`. Página: [Dominium](modulos/dominium.md).
-- **Territórios**: dispute, marque com grafite (a lata de tinta sai da Petroleira), colete tributos — o painel `/dominio` mostra o território em tempo real.
-- **Missões de gangue**: diárias (gado, carroça) e especiais (dominação, pirataria, extorsão), pelo painel `/dominio` — e rendem os **livros de receita das armas de guerra**.
+- **Crie/entre num clã ou gangue**: menus `/gang` e `/dominio`. Página: [Dominium](modulos/dominium.md).
+- **Territórios**: dispute, marque com grafite (a lata de tinta sai da Petroleira), colete tributos. O painel `/dominio` mostra o território em tempo real.
+- **Missões de gangue**: diárias (gado, carroça) e especiais (dominação, pirataria, extorsão), pelo painel `/dominio`, e rendem os **livros de receita das armas de guerra**.
 - **Base do clã na fazenda**: [Estandarte da Família](modulos/estandarte-familia.md) (estruturas, estoque, raids).
 
 ## ⚗️ Fundição e a Forja de Campanha
 
 A **Forja de Campanha** é peça de alquimista: uma fornalha de levar e montar onde precisar. **Use o item** para assentá-la no chão (gire e confirme o lugar). Perto dela aparecem **interação de fabricação**, que abre a **Fundição**, e **remover bancada** (só o dono remove). Forja montada e sem uso some depois de 30 minutos, e cada um mantém no máximo duas montadas.
 
-- **Fabricar** — Armaria Especial, categoria Especiais, **nível 5**, sem livro: 1 Caixa de Ervas do Alquimista II, 2 Essências do Pantanal, 3 Placas e 3 Barras de Aço Diablo, 6 Quartzo Aurífero, 6 Pedra Pirita, 6 Enxofre, 4 Vidro Polido, 2 Lentes de Cristal Fino, 10 Carvão e o Grampo de Forja (não é gasto).
-- **Comprar pronta** — Fundição Imperial, **$7.500**.
+- **Fabricar**: Armaria Especial, categoria Especiais, **nível 5**, sem livro: 1 Caixa de Ervas do Alquimista II, 2 Essências do Pantanal, 3 Placas e 3 Barras de Aço Diablo, 6 Quartzo Aurífero, 6 Pedra Pirita, 6 Enxofre, 4 Vidro Polido, 2 Lentes de Cristal Fino, 10 Carvão e o Grampo de Forja (não é gasto).
+- **Comprar pronta**: Fundição Imperial, **$7.500**.
 
 **O que a Fundição faz** (toda receita pede solvente de metal e molde de lingote):
 
@@ -78,7 +78,7 @@ A **Forja de Campanha** é peça de alquimista: uma fornalha de levar e montar o
 | 1 lingote bruto de prata | 3 lingotes de prata |
 | 3 meteoritos Diablo | 4 minérios de schreibersite |
 
-**O ouro vira dinheiro no banco.** O banco compra o lingote de ouro por **$530**, ou **$640** num banco central; o preço do dia varia um pouco. As 10 pepitas que vão num lingote rendem $300 no garimpo — fundidas, rendem mais. É o trabalho da Fundição que paga.
+**O ouro vira dinheiro no banco.** O banco compra o lingote de ouro por **$530**, ou **$640** num banco central; o preço do dia varia um pouco. As 10 pepitas que vão num lingote rendem $300 no garimpo: fundidas, rendem mais. É o trabalho da Fundição que paga.
 
 ## ✅ Checklist para sair da Fase 5
 
@@ -86,4 +86,4 @@ A **Forja de Campanha** é peça de alquimista: uma fornalha de levar e montar o
 - [ ] Carroça própria e transporte resolvido
 - [ ] Produção escoando com regularidade
 
-➡️ **Próximo: [Capítulo 6 — Economia & Exportação](06-economia-e-exportacao.md)**
+➡️ **Próximo: [Capítulo 6: Economia & Exportação](06-economia-e-exportacao.md)**

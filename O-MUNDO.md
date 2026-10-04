@@ -1,4 +1,4 @@
-# 🌎 O MUNDO — A história do Pantanal
+# 🌎 O MUNDO - A história do Pantanal
 
 > Tudo o que um recém-chegado ouve na primeira noite, na taberna. Parte é verdade. Parte, dizem.
 
@@ -27,7 +27,7 @@ Dentro das muralhas, as duas se tratam com cortesia fria. Fora delas, não há l
 
 **José Rico Sevskaya**, o segundo, comanda a **Guarda Real**: a única força do Império que responde ao rei e a mais ninguém. É por causa dele que a muralha está de pé e que as estradas ainda têm patrulha. Não precisa de assinatura. Precisa de ordem.
 
-> *"Coroa não se dá. Se pega."* — James Sevskaya
+> *"Coroa não se dá. Se pega."* (James Sevskaya)
 
 ## Os Kohani
 
@@ -39,7 +39,7 @@ Os Kohani aprenderam a fazer pólvora em dois anos, do zero. Dizem que foram os 
 
 **Mbaraeté** é a tradição de cura e de espírito deles. Quando você compra um remédio Mbaraeté, está comprando a cura de quem não te quer aqui.
 
-> *"O interior do Pantanal não pertence aos impérios. Nunca pertenceu. Nunca pertencerá."* — mensagem do Rei do Gelo
+> *"O interior do Pantanal não pertence aos impérios. Nunca pertenceu. Nunca pertencerá."* (mensagem do Rei do Gelo)
 
 ## A Igreja
 
@@ -80,4 +80,4 @@ Você não é poder e não pertence a ninguém. É colono livre: aventureiro, fu
 
 Cada fazenda montada, cada licença conquistada, cada carroça que chega inteira a Guarma pesa numa sucessão que ainda não aconteceu.
 
-⬅️ Voltar ao [Capítulo 0 — Comece Aqui](00-comece-aqui.md)
+⬅️ Voltar ao [Capítulo 0: Comece Aqui](00-comece-aqui.md)

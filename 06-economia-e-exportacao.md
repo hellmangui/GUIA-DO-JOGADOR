@@ -1,16 +1,16 @@
-# 💰 CAPÍTULO 6 — Economia & Exportação
+# 💰 CAPÍTULO 6 - Economia & Exportação
 
-> **Fase 6 da Linha do Tempo.** Entenda a regra que rege todos os preços do Pantanal — e o endgame econômico: a exportação.
+> **Fase 6 da Linha do Tempo.** Entenda a regra que rege todos os preços do Pantanal, e o endgame econômico: a exportação.
 
 ## A regra de ouro dos preços
 
 > **A loja é o TETO.** Toda loja NPC vende pelo preço máximo do item. Produzir é SEMPRE mais barato.
 
-As lojas existem para **destravar** (comprar ração antes de ter o Zelador, molde antes de ter a Ferraria...) — não para viver delas. Quem compra tudo na loja financia quem produz.
+As lojas existem para **destravar** (comprar ração antes de ter o Zelador, molde antes de ter a Ferraria...): não para viver delas. Quem compra tudo na loja financia quem produz.
 
 ## 🏪 As lojas do Pantanal (32+)
 
-Cada setor produtivo tem sua loja de suprimentos, com **NPC, horário de funcionamento (7h–18h)** e blip no mapa:
+Cada setor produtivo tem sua loja de suprimentos, com **NPC, horário de funcionamento (7h a 18h)** e blip no mapa:
 
 | Setor | Lojas |
 |-------|-------|
@@ -37,7 +37,7 @@ Cada setor produtivo tem sua loja de suprimentos, com **NPC, horário de funcion
 | Entregas | **Rota do Entregador** |
 | Alto volume | **EXPORTAÇÃO** (abaixo) |
 
-## 🚢 Exportação — o endgame econômico
+## 🚢 Exportação: o endgame econômico
 
 O caminho do grande produtor, em 3 passos:
 
@@ -48,19 +48,19 @@ O caminho do grande produtor, em 3 passos:
    peixe, tabaco...                                = TICKET de Exportação 💰
 ```
 
-1. **Ensacamento** (oficina): transforma produção a granel em **sacas e caixas** padronizadas — Sacas de Agricultura (algodão, farinha, tabaco, milho, café, açúcar, soja), Caixas de Fazenda (queijo, couro, sal, vinagre, pescado...), Caixas de Madeireira, Metalurgia, Destilaria, Lendários, Petróleo.
+1. **Ensacamento** (oficina): transforma produção a granel em **sacas e caixas** padronizadas. Sacas de Agricultura (algodão, farinha, tabaco, milho, café, açúcar, soja), Caixas de Fazenda (queijo, couro, sal, vinagre, pescado...), Caixas de Madeireira, Metalurgia, Destilaria, Lendários, Petróleo.
 2. **Títulos de Exportação**: caixas viram Títulos do setor (fazenda, agricultura, madeireira, metalurgia, destilaria, lendários, petróleo).
-3. **Tickets de Exportação**: caixa + **Licença de Exportação** = ticket — o topo da cadeia comercial.
+3. **Tickets de Exportação**: caixa + **Licença de Exportação** = ticket. O topo da cadeia comercial.
 
 ## 🗺️ Oficinas Regionais (t1 / t3 / t5)
 
-Cada estado tem a **sua própria linha de oficinas** — 5 estados × 3 tiers = **15 oficinas exclusivas**, temáticas por espécie de pecuária. O mesmo funil se repete nos cinco:
+Cada estado tem a **sua própria linha de oficinas**: 5 estados × 3 tiers = **15 oficinas exclusivas**, temáticas por espécie de pecuária. O mesmo funil se repete nos cinco:
 
 ```
 Processados comuns → T1 Base regional → T3 Caixa → T5 Produto premium "da terra"
 ```
 
-**Regra Dominium — o T5 é cooperativo.** Itens de expansão, lore, economia, PvP e sistemas centrais **não** viram craft comum: vão pro T5 regional, com cadeias que consomem saídas de **várias oficinas** e fazem fazendas, regiões e profissões **cooperarem**.
+**Regra Dominium: o T5 é cooperativo.** Itens de expansão, lore, economia, PvP e sistemas centrais **não** viram craft comum: vão pro T5 regional, com cadeias que consomem saídas de **várias oficinas** e fazem fazendas, regiões e profissões **cooperarem**.
 
 | Estado | Oficina | Linhas | Especialidade |
 |--------|---------|--------|---------------|
@@ -79,4 +79,4 @@ Os tiers escalam: **T1** faz a base (consome vários processados comuns) → **T
 - [ ] Tickets girando em pelo menos um setor
 - [ ] Um produto regional do seu estado no portfólio
 
-➡️ **Próximo: [Capítulo 7 — Genética & Linhagens](07-genetica.md)**
+➡️ **Próximo: [Capítulo 7: Genética & Linhagens](07-genetica.md)**

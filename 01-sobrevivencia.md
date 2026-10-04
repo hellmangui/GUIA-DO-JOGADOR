@@ -1,6 +1,6 @@
-# 🔥 CAPÍTULO 1 — Sobrevivência
+# 🔥 CAPÍTULO 1 - Sobrevivência
 
-> **Fase 1 da Linha do Tempo.** Aqui você aprende a não morrer — e a construir as ferramentas que destravam todo o resto.
+> **Fase 1 da Linha do Tempo.** Aqui você aprende a não morrer, e a construir as ferramentas que destravam todo o resto.
 
 ## 1. Água
 
@@ -12,24 +12,24 @@
 ## 2. Comida
 
 - **Cace** (Capítulo 2) e **cozinhe na fogueira**: carne + espeto de madeira = refeição simples; carne + erva (orégano, tomilho, hortelã) = refeição temperada, muito melhor.
-- **Ensopados** na panela (cauldron): receitas fartas tipo *Arroz Carreteiro* que restauram tudo — exigem carne + ervas + espetos e um minigame de preparo (alternar **Adicionar [E]** e **Misturar [G]**, sem errar mais de 2 vezes).
+- **Ensopados** na panela (cauldron): receitas fartas tipo *Arroz Carreteiro* que restauram tudo. Exigem carne + ervas + espetos e um minigame de preparo (alternar **Adicionar [E]** e **Misturar [G]**, sem errar mais de 2 vezes).
 - Café existe. Agradeça depois.
 - ⚠️ Para cozinhar você precisa estar com a **faca equipada**.
 
 ## 3. Saúde e doença
 
-- **Doenças**: cólera, tuberculose, difteria — cada uma com remédio próprio. A medicina **Mbaraeté** (nativa) tem curas poderosas: `moe_mbae`, `moe_rasy_guasu`, chás.
+- **Doenças**: cólera, tuberculose, difteria. Cada uma com remédio próprio. A medicina **Mbaraeté** (nativa) tem curas poderosas: `moe_mbae`, `moe_rasy_guasu`, chás.
 - **Ferimentos por região do corpo**: sangramento precisa de bandagem; fratura e infecção precisam de médico.
 - **Médicos**: jogadores de plantão ou o consultório NPC. Sente na cadeira e será examinado.
 - **Veneno**: cobra e afins. Antídoto no bolso é vida. (Dizem os vaqueiros que na falta de antídoto, urina serve. Não perguntamos mais.)
-- `/bloodtype` mostra seu tipo sanguíneo — importante em transfusões.
+- `/bloodtype` mostra seu tipo sanguíneo: importante em transfusões.
 - **A doença demora a aparecer.** Doença, veneno, hipotermia e febre de chuva só começam alguns minutos depois. Pegou hipotermia? Você ainda tem uns cinco minutos para achar uma fogueira.
 - **Doença não mata sozinha**, mas tira vida aos poucos até você se tratar.
 - **Morrer**: ao renascer você perde itens, armas, munição e o dinheiro do bolso. O ouro e o banco ficam, e você volta fraco. Guarde o que importa em casa ou no banco antes de sair da cidade.
 
 ## 4. O craft da fogueira (seu primeiro tech tree)
 
-Qualquer fogueira do mundo serve — aproxime-se e aperte **E** (ou use `/craftingmenu`).
+Qualquer fogueira do mundo serve: aproxime-se e aperte **E** (ou use `/craftingmenu`).
 
 ### A cadeia do primeiro dia
 
@@ -63,9 +63,9 @@ gravetos + pedregulhos + corda ──► ⭐ MARTELO CONSTRUTOR ⭐
 
 ## 5. Dormir, se lavar, se agasalhar
 
-- **Sono** é necessidade real — camas craftáveis existem (livro de sobrevivência).
-- **Sujeira** acumula — banho resolve.
-- **Frio/calor** afetam o corpo — roupa certa para o clima certo.
+- **Sono** é necessidade real: camas craftáveis existem (livro de sobrevivência).
+- **Sujeira** acumula: banho resolve.
+- **Frio/calor** afetam o corpo: roupa certa para o clima certo.
 
 ## ✅ Checklist para sair da Fase 1
 
@@ -75,4 +75,4 @@ gravetos + pedregulhos + corda ──► ⭐ MARTELO CONSTRUTOR ⭐
 - [ ] Bancada Sobrevivente e Estendal de Secagem colocados
 - [ ] Fome/sede/sono sob controle
 
-➡️ **Próximo: [Capítulo 2 — Coleta & Caça](02-coleta-e-caca.md)**
+➡️ **Próximo: [Capítulo 2: Coleta & Caça](02-coleta-e-caca.md)**
