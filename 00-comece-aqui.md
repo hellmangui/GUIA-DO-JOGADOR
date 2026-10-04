@@ -4,7 +4,7 @@
 
 O ano é **1492** — *Mundus Novus*, a era da pólvora primitiva. Você chega ao Pantanal sem nada além das próprias mãos. Aqui o mundo é **realista e vivo**: você sente fome, sede, frio, cansaço e pode adoecer de verdade. Tudo o que existe — do pão na mesa ao canhão na muralha — foi **produzido por jogadores**, numa cadeia que começa com uma fibra vegetal colhida no mato.
 
-Fora das muralhas de **Blackwater** (o Império do Sul) e **Saint Denis** (o Império do Norte), o interior pertence aos **Kohani** — e não há lei que te proteja. É nesse caos que você vai construir a sua fazenda. *(Lore completa: `lore.md` na raiz do projeto.)*
+Fora das muralhas de **Blackwater** e **Saint Denis** (as duas cidades do Império), o interior pertence aos **Kohani** — e não há lei que te proteja. É nesse caos que você vai construir a sua fazenda. *(Lore completa: `lore.md` na raiz do projeto.)*
 
 Dois sistemas-mãe sustentam tudo:
 
